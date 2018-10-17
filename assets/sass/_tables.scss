@@ -1,0 +1,52 @@
+/* Tables */
+
+table {
+  width: 100%;
+}
+
+thead, tbody, tr {
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: .5rem;
+}
+
+thead tr {
+  /* background-color: rgba(233,233,233,1); */
+  background-color: rgba(40,40,40,1);
+  border-bottom: 2px solid #e1e1e1;
+  border-radius: 1rem 1rem 0 0;
+  overflow: hidden;
+}
+
+tbody tr:nth-child(odd){
+  background-color: rgba(233, 233, 233, 0.25);
+}
+
+tbody tr:nth-child(even){
+  background-color: rgba(233, 233, 233, 0.5);
+}
+
+tbody tr:hover {
+  background-color: rgba(40,40,40,.85);
+  text-transform: 1px 0 0 #fff;
+}
+
+td.team-name {
+  font-weight: bold;
+}
+
+.team-logo {
+  margin: .5rem auto;
+  max-width: 12rem;
+}
+
+.team-logo--table {
+  margin-right: 1rem;
+  vertical-align: middle;
+
+  height: 1.5rem;
+  width: 1.5rem;
+}

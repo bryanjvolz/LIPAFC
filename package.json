@@ -1,0 +1,27 @@
+{
+  "name": "lipafc",
+  "version": "0.0.1",
+  "description": "LIPAFC web files",
+  "author": {
+    "name": "Bryan V",
+    "email": "bryanjvolz+dontspamme@gmail.com",
+    "url": "https://www.lipafc.com/"
+  },
+  "license": "UNLICENSED",
+  "main": "gulpfile.js",
+  "private": true,
+  "homepage": "http://www.bryanvolz.com/",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.9.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.4.1",
+    "browser-sync": "^2.26.3",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-uglifycss": "^1.1.0"
+  }
+}
