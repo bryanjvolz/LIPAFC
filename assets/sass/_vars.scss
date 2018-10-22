@@ -1,0 +1,35 @@
+/**
+* Variables
+*/
+
+$base-font-size: 18;
+
+//Mixins
+@function rem($size) {
+  $remSize: $size / $base-font-size;
+  @return #{$remSize}rem;
+}
+
+
+
+//Layout/widths
+$max-width: 1200px;
+
+//Breakpoints
+$sm: 600px;
+$md: 768px;
+$lg: 1000px;
+$xl: $max-width;
+
+//Typography
+$body-bg: #ffffff;
+$body-color: #222222;
+$link: #e1e1e1;
+$link-hover: #d1d1d1;
+$white : #fff;
+
+$header-font: 'bebasNeueBold', Helvetica, Arial, sans-serif;
+$body-font: 'bebasNeueRegular', Helvetica, Arial, sans-serif;
+$light-font: 'bebasNeueLight', Helvetica, Arial, sans-serif;
+$book-font: 'bebasNeueBook', Helvetica, Arial, sans-serif;
+$script-font: 'Permanent Marker', cursive;
