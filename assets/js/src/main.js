@@ -12,8 +12,8 @@ init.yearSelector = function(){
    * Toggles to only show the current year
    */
   var currYear = $("#year-select").val();
-  $("tr").not("[data-year='"+currYear+"']").hide();
-  $("tr[data-year='"+currYear+"']").show();
+  $("tbody tr").not("[data-year='"+currYear+"']").hide();
+  $("tbody tr[data-year='"+currYear+"']").show();
   return;
 };
 
