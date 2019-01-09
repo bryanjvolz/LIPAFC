@@ -199,6 +199,9 @@
           </div>
         </footer>
 
+        <script src="assets/js/vendor/jquery.min.js"></script>
+        <script src="assets/js/src/main.js"></script>
+
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127480715-1"></script>
         <script>
