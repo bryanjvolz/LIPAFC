@@ -96,9 +96,6 @@ img {
 
 
 
-
-
-
 .about-lipafc {
   background-image: url('../img/info_bg.png');
   background-size: cover;
@@ -106,10 +103,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 
   h1,p, h3 {
     margin: 0;
-    max-width: 50%;
+    @media screen and (min-width: 720px){
+      max-width: 50%;
+    }
   }
 }

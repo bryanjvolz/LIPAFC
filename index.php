@@ -11,28 +11,13 @@
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="/node_modules/swiper/dist/css/swiper.min.css">
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <header>
-          <nav class="main-nav">
-            <ul>
-              <li class=""><a href="#intro" aria-label="LIPAFC.com Home"><img src="assets/img/logos/lipafc_cup.svg" alt="LIPAFC Cup Icon"></a></li>
-              <li class=""><a href="#latest-results">Latest Results</a></li>
-              <li class=""><a href="#about-lipafc">LIPAFC Info</a></li>
-              <li class=""><a href="#results">Results</a></li>
-              <li class=""><a href="#featured-matchups">Looking Back</a></li>
-            </ul>
-          </nav>
-          <section class="intro wrap">
-              <div class="container">
-                  <h1><span>The</span> Louisville-Indianapolis Proximity Association Football Contest</h1>
-                  <p><span class="hidden">'Lee-pah-eff-see' -</span> THE SINGLE MOST IMPORTANT SPORTING AND CULTURAL EVENT IN HUMAN HISTORY</p>
-              </div>
-            </section>
-        </header>
+        <?php include 'includes/header.php'; ?>
 
         <main>
 
@@ -65,17 +50,23 @@
             <nav>
               <select id="year-select" class="year-select">
                 <optgroup>
+                  <option value="<?php echo date('Y'); ?>">Modern Era</option>
+                  <option value="2019">2019</option>
                   <option value="2018">2018</option>
                   <option value="2017">2017</option>
                   <option value="2016">2016</option>
                   <option value="2015">2015</option>
                 </optgroup>
                 <optgroup>
+                  <option value="">Classical</option>
+                  <option value="1945">1945</option>
                   <option value="1921">1921</option>
                   <option value="1925">1925</option>
                   <option value="1932">1932</option>
                   <option value="1936">1936</option>
-                  <option value="1946">1946</option>
+                  <option value="1863">1863</option>
+
+                  <option value="ancient">Ancient History</option>
                 </optgroup>
               </select>
             </nav>
@@ -90,6 +81,20 @@
                     </tr>
                   </thead>
                   <tbody>
+                    <tr data-year="2019">
+                      <td>June 29, 2019</td>
+                      <td>TBD</td>
+                      <td>Indianapolis</td>
+                      <td>Lucas Oil Stadium</td>
+                      <td>USL Regular Season</td>
+                    </tr>
+                    <tr data-year="2019">
+                      <td>August 30, 2019</td>
+                      <td>TBD</td>
+                      <td>Louisville</td>
+                      <td>Slugger Field</td>
+                      <td>USL Regular Season</td>
+                    </tr>
                     <tr data-year="2018">
                       <td>October 20, 2018</td>
                       <td>4-1</td>
@@ -147,6 +152,30 @@
                       <td>US Open Cup</td>
                     </tr>
 
+                    <tr data-year="1945">
+                      <td>October 27, 1945</td>
+                      <td>1 - 1</td>
+                      <td>Louisville</td>
+                      <td>Grünwalder Stadion</td>
+                      <td>One-off WWII Victory Match</td>
+                    </tr>
+
+                    <tr data-year="1925">
+                      <td>May 27, 2015</td>
+                      <td>0 - 2</td>
+                      <td>Louisville</td>
+                      <td>Carroll Stadium, IUPUI</td>
+                      <td>US Open Cup</td>
+                    </tr>
+
+                    <tr data-year="1863">
+                      <td>May 27, 2015</td>
+                      <td>4 - 0</td>
+                      <td>Louisville</td>
+                      <td>Carroll Stadium, IUPUI</td>
+                      <td>Kentucky Derby Festival Sporting Goodtimes Championship</td>
+                    </tr>
+
                     <tr data-year="ancient">
                       <td>1280 BC - 2015 AD</td>
                       <td>???</td>
@@ -160,22 +189,7 @@
             </div>
           </section>
 
-          <section class="featured-matchups">
-            <div class="container">
-              <ul class="">
-                <li class="" data-year="2018">
-                  <h2>2018 Playoffs</h2>
-                  <p><em>Someone</em> hired a plane to fly over Slugger Field in the run up to the first meeting of the two teams
-                </li>
-                <li class="" data-year="">
-                </li>
-                <li class="" data-year="">
-                </li>
-                <li class="" data-year="">
-                </li>
-              </ul>
-            </div>
-          </section>
+          <?php include 'includes/featured-matches.php' ?>
 
           <section class="photos">
             <div class="container">
@@ -183,22 +197,9 @@
           </section>
         </main>
 
-        <footer>
-          <div class="container">
-            <ul class='team-links'>
-              <li><a href="//louisvillecityfc.com/" target="_blank">Louisville City FC</a></li>
-              <li><a href="//www.indyeleven.com/" target="_blank">Indianapolis Eleven</a></li>
-            </ul>
+        <?php include 'includes/footer.php' ?>
 
-            <ul class='supporter-links'>
-              <li><a href="//www.louisvillecoopers.com/" target="_blank">Louisville Coopers</a></li>
-              <li><a href="//www.brickyardbattalion.com/" target="_blank">Brickyard Battalion</a></li>
-              <li><a href="//scouseshouse.com/" target="_blank">Scouse's House</a></li>
-              <li><a href="//slaughterhousenineteen.com/" target="_blank">Slaughterhouse 19</a></li>
-            </ul>
-          </div>
-        </footer>
-
+        <script src="/node_modules/swiper/dist/js/swiper.min.js"></script>
         <script src="assets/js/vendor/jquery.min.js"></script>
         <script src="assets/js/src/main.js"></script>
 

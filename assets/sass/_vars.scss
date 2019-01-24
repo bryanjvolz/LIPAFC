@@ -1,7 +1,6 @@
 /**
 * Variables
 */
-
 $base-font-size: 18;
 
 //Mixins
@@ -9,8 +8,6 @@ $base-font-size: 18;
   $remSize: $size / $base-font-size;
   @return #{$remSize}rem;
 }
-
-
 
 //Layout/widths
 $max-width: 1200px;

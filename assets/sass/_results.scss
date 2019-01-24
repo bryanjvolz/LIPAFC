@@ -17,19 +17,23 @@
   justify-content: space-between;
   height: rem(200);
   top: rem(-100);
+  flex-wrap: wrap;
 
   div {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    flex: 1 0 auto;
   }
 
   img {
     display: block;
     max-width: rem(75);
   }
-  span {
+  & > span {
     display: block;
+    flex: 1 0 100%;
+    align-self: flex-start;
   }
 }

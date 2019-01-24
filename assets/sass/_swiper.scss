@@ -1,0 +1,76 @@
+/**
+* Swiper carousel styles
+**/
+
+.swiper-container {
+  height: 60vh;
+  min-height: 500px;
+}
+
+.swiper-title {
+  font-family: $header-font;
+  font-size: rem(80);
+  margin-top: 0;
+}
+
+.swiper-slide {
+  background-color: #d1d1d1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.swiper-slide .credits {
+  background-color: #e1e1e1;
+  color: #333;
+  display: inline-block;
+  font-family: $book-font;
+  font-size: .85rem;
+  padding: 1.15em .75em .75em;
+  border-radius: rem(3);
+  position: relative;
+
+  &:before {
+    content: 'Credit:';
+    font-family: $header-font;
+    position: absolute;
+    top: 0;
+    left: .75rem;
+    text-shadow: 0 0 2px solid #fff;
+  }
+}
+
+/** Year Specifics **/
+.swiper-slide[data-year="2018"] {
+  background-color: rgba(155,220,80,1);
+  background-image: url('/assets/img/featured/2018-plane-banner.jpg');
+  background-size: cover;
+  color: white;
+  font-size: 1.15rem;
+}
+
+.swiper-slide[data-year="1863"] {
+  background-color: #d1d1d1;
+  background-image: url('/assets/img/featured/1863-albatross.jpg');
+  background-size: cover;
+}
+
+.swiper-slide[data-year="1868"] {
+  background-image: url('/assets/img/featured/1868-groove-machine.jpg');
+  background-size: cover;
+  text-shadow: 1px solid #fff;
+  position: relative;
+
+  .container {
+    position: relative;
+  }
+
+  &:before {
+    position: absolute;
+    content: ' ';
+    background-color: rgba(255,255,255,.75);
+    height: 100%;
+    width: 100%;
+  }
+}
+
+//1994 https://twitter.com/IndyEleven/status/1069629865723420677

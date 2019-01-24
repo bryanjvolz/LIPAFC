@@ -24,7 +24,7 @@ header {
   flex-direction: column;
   position: relative;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
   z-index: 1;
@@ -75,6 +75,7 @@ header {
 
     a {
       color: $white;
+      font-family: $header-font;
       font-size: rem(22);
       text-decoration: none;
       border-bottom: 1px solid transparent;
@@ -110,26 +111,41 @@ header {
   margin: 0 auto;
   text-align: center;
   text-shadow: 0 0 5px rgba(0,0,0,.45);
-  font-size: rem(32);
+  font-size: rem(16);
   font-family: $book-font;
+
+  @media screen and (min-width: 720px){
+    font-size: rem(32);
+  }
 
   h1 {
     position: relative;
     text-align: center;
     color: #fff;
-    font-size: rem(85);
+    font-size: rem(35);
+    font-size: 11vw;
     line-height: .85em;
     margin: 0 auto;
     padding: 0;
 
+    @media screen and (min-width: 720px){
+      font-size: rem(85);
+    }
+
     span {
       font-family:  $script-font;
       position: absolute;
-      top: -1.25em;
+      top: -.85em;
       left: calc(50% - 1em);
-      font-size: rem(48);
+      font-size: rem(32);
+      font-size: 12vw;
       transform: rotate(-10deg);
       text-shadow: 0 0 15px rgba(0,0,0,.85);
+
+      @media screen and (min-width: 720px){
+        top: -1.25em;
+        font-size: rem(48);
+      }
     }
   }
   p {
