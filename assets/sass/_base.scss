@@ -4,10 +4,10 @@
    ========================================================================== */
 
    html {
-    background: #000;
-    color: #fff;
-    font-family: 'Muli', sans-serif;
-    font-size: 1em;
+    background: $body-bg;
+    color: $body-color;
+    font-family: $body-font;
+    font-size: #{$base-font-size}px;
     line-height: 1.4;
   }
 
@@ -75,29 +75,58 @@
       resize: vertical;
   }
 
-body {
-  background-image: url('../img/lipafc_bg.png');
-  background-position: center center;
-  background-size: cover;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
-
-.wrap {
-  display: flex;
-  flex-direction: column;
+body, main {
+  color: $body-color;
+  position: relative;
 }
 
 
-main {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  text-align: center;
-}
-
-main img {
+img {
   max-width: 100%;
   width: auto;
+}
+
+
+.container {
+  max-width: $max-width;
+  margin: 1rem auto;
+  width: 95%;
+}
+
+
+
+/** About Section **/
+.about-lipafc {
+  align-items: center;
+  background-image: url('../img/info_bg.png');
+  background-position: center bottom;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 10vw;
+
+  @media screen and (min-width: $md){
+    padding-top: rem(10);
+  }
+
+  @media screen and (min-width: $lg){
+    padding-top: 12vh;
+  }
+
+  h1,p, h3 {
+    margin: 0;
+    @media screen and (min-width: 720px){
+      max-width: 50%;
+    }
+  }
+  h3 {
+    margin: 1em 0;
+    font-size: 1.5em;
+  }
+  p {
+    @media screen and (min-width: $lg){
+      font-size: 2.15vw;
+    }
+  }
 }
