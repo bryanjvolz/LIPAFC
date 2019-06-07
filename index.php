@@ -12,6 +12,14 @@
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="/node_modules/swiper/dist/css/swiper.min.css">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+        <link rel="manifest" href="/assets/site.webmanifest">
+        <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#238dde">
+        <meta name="msapplication-TileColor" content="#238dde">
+        <meta name="theme-color" content="#238dde">
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -21,21 +29,9 @@
 
         <main>
 
-          <section id="latest-results" class="latest-results">
-            <span>Latest Results: October 20<sup>th</sup> 2018</span>
-            <div class="">
-              <span class="">4</span>
-              <img src="assets/img/logos/louisville_city.svg" alt="Louisville City Logo">
-              <span class="">LOU</span>
-            </div>
-            <div class="">
-              <span class="">1</span>
-              <img src="assets/img/logos/indy_eleven_logo.svg" alt="Indianapolis 11 Logo">
-              <span class="">INDY</span>
-            </div>
-          </section>
+          <?php include 'includes/latest-results.php'; ?>
 
-          <section class="wrap about-lipafc">
+          <section id="about-lipafc" class="wrap about-lipafc">
             <div class="container">
               <h1>The Heck is this?</h1>
               <p>The LIPAFC (Louisville-INDIANAPOLIS PROXIMITY&hellip; oh don't make me type it again) is the soccer rivalry between Indianapolis Eleven and Louisville City FC. As aluded above, this clash of titans is the cause for humanity’s ascension to control this planet. Much like Bill &amp; Ted, this rivalry has spanned the ages and will some day bring peace to the world&hellip; once they learn to play guitar. While sporting celebs will tell you grand tales of Worldly Cups or Superb Owls, only the LIPAFC will tug your heartstrings like a puppy and tear you apart like finding out what happened to Bambi’s mom.</p>
@@ -44,157 +40,23 @@
             </div>
           </section>
 
-          <section class="results">
-            <div class="container">
-            <h1>LIPAFC Match History</h1>
-            <nav>
-              <select id="year-select" class="year-select">
-                <optgroup>
-                  <option value="<?php echo date('Y'); ?>">Modern Era</option>
-                  <option value="2019">2019</option>
-                  <option value="2018">2018</option>
-                  <option value="2017">2017</option>
-                  <option value="2016">2016</option>
-                  <option value="2015">2015</option>
-                </optgroup>
-                <optgroup>
-                  <option value="">Classical</option>
-                  <option value="1945">1945</option>
-                  <option value="1921">1921</option>
-                  <option value="1925">1925</option>
-                  <option value="1932">1932</option>
-                  <option value="1936">1936</option>
-                  <option value="1863">1863</option>
-
-                  <option value="ancient">Ancient History</option>
-                </optgroup>
-              </select>
-            </nav>
-              <table>
-                  <thead>
-                    <tr>
-                      <th>Date</th>
-                      <th>Score</th>
-                      <th>Winner</th>
-                      <th>Location</th>
-                      <th>Competition</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr data-year="2019">
-                      <td>June 29, 2019</td>
-                      <td>TBD</td>
-                      <td>Indianapolis</td>
-                      <td>Lucas Oil Stadium</td>
-                      <td>USL Regular Season</td>
-                    </tr>
-                    <tr data-year="2019">
-                      <td>August 30, 2019</td>
-                      <td>TBD</td>
-                      <td>Louisville</td>
-                      <td>Slugger Field</td>
-                      <td>USL Regular Season</td>
-                    </tr>
-                    <tr data-year="2018">
-                      <td>October 20, 2018</td>
-                      <td>4-1</td>
-                      <td>Louisville</td>
-                      <td>Slugger Field</td>
-                      <td>USL Playoffs</td>
-                    </tr>
-                    <tr data-year="2018">
-                      <td>October 13, 2018</td>
-                      <td>0 - 1 (PK)</td>
-                      <td>Louisville</td>
-                      <td>Slugger Field</td>
-                      <td>USL</td>
-                    </tr>
-                    <tr data-year="2018">
-                      <td>August 5, 2018</td>
-                      <td>2 - 2</td>
-                      <td>-DRAW-</td>
-                      <td>Slugger Field</td>
-                      <td>USL</td>
-                    </tr>
-                    <tr data-year="2018">
-                      <td>May 5, 2018</td>
-                      <td>1 (PK) - 0</td>
-                      <td>Indianapolis</td>
-                      <td>Lucas Oil Stadium</td>
-                      <td>USL</td>
-                    </tr>
-                    <tr data-year="2017">
-                      <td>March 18, 2017</td>
-                      <td>1 - 1</td>
-                      <td>-DRAW-</td>
-                      <td>Evansville, IN</td>
-                      <td>Friendly</td>
-                    </tr>
-                    <tr data-year="2016">
-                      <td>June 1, 2016</td>
-                      <td>2 - 1</td>
-                      <td>Indianapolis</td>
-                      <td>Carroll Stadium, IUPUI</td>
-                      <td>US Open Cup</td>
-                    </tr>
-                    <tr data-year="2016">
-                      <td>March 19, 2016</td>
-                      <td>1 - 0</td>
-                      <td>Louisville</td>
-                      <td>Slugger Field <sup title="Closed to public">*</sup></td>
-                      <td>Friendly</td>
-                    </tr>
-                    <tr data-year="2015">
-                      <td>May 27, 2015</td>
-                      <td>0 - 2</td>
-                      <td>Louisville</td>
-                      <td>Carroll Stadium, IUPUI</td>
-                      <td>US Open Cup</td>
-                    </tr>
-
-                    <tr data-year="1945">
-                      <td>October 27, 1945</td>
-                      <td>1 - 1</td>
-                      <td>Louisville</td>
-                      <td>Grünwalder Stadion</td>
-                      <td>One-off WWII Victory Match</td>
-                    </tr>
-
-                    <tr data-year="1925">
-                      <td>May 27, 2015</td>
-                      <td>0 - 2</td>
-                      <td>Louisville</td>
-                      <td>Carroll Stadium, IUPUI</td>
-                      <td>US Open Cup</td>
-                    </tr>
-
-                    <tr data-year="1863">
-                      <td>May 27, 2015</td>
-                      <td>4 - 0</td>
-                      <td>Louisville</td>
-                      <td>Carroll Stadium, IUPUI</td>
-                      <td>Kentucky Derby Festival Sporting Goodtimes Championship</td>
-                    </tr>
-
-                    <tr data-year="ancient">
-                      <td>1280 BC - 2015 AD</td>
-                      <td>???</td>
-                      <td>Lost to history</td>
-                      <td>The old country, the new world</td>
-                      <td>Only the Watchers know</td>
-                    </tr>
-                  </tbody>
-                </table>
-
-            </div>
-          </section>
+          <?php include 'includes/results.php'; ?>
 
           <?php include 'includes/featured-matches.php' ?>
 
-          <section class="photos">
+          <!-- <section class="photos">
             <div class="container">
             </div>
-          </section>
+          </section> -->
+
+          <!-- <section id="social-media" class="social">
+            <div class="social__lipafc">
+
+            </div>
+            <div class="social__hashtag">
+
+            </div>
+          </section> -->
         </main>
 
         <?php include 'includes/footer.php' ?>

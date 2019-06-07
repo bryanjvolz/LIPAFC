@@ -1,13 +1,13 @@
-var init = {};
+var lipafc = {};
 
 $(function () {
-  init.yearSelector();
-  init.events();
-  init.carousel();
+  lipafc.yearSelector();
+  lipafc.events();
+  lipafc.carousel();
 });
 
 
-init.yearSelector = function(){
+lipafc.yearSelector = function(){
   console.log("trigger");
   /**
    * yearSelector
@@ -19,17 +19,40 @@ init.yearSelector = function(){
   return;
 };
 
-init.events = function(){
+lipafc.events = function(){
   // var yearSelect = document.getElementById("year-select");
   // yearSelect.addEventListener("onchange", init.yearSelector());
   $("#year-select").on("change",function(){
-    init.yearSelector();
+    lipafc.yearSelector();
   });
+
+  $(".main-nav a").on("click",function(e){
+    if( window.innerWidth > 768 ){
+    } else {
+      $('.menu-toggle').click();
+    }
+
+    var scrollTo = $(this).attr('href');
+    if ( $(scrollTo).length && scrollTo != null && scrollTo != '') {
+      e.preventDefault();
+      $('html, body').animate({
+          scrollTop: $(scrollTo).offset().top
+      }, 500);
+    }
+  });
+
+  $('.menu-toggle').on('click', function() {
+    $('.menu-toggle').toggleClass('animate');
+    $('.main-nav ul').toggleClass('active-nav');
+    if( window.innerWidth <=768 ){
+      $('body').toggleClass('active-mobile-nav');
+    }
+	});
 
   return;
 };
 
-init.carousel = function(){
+lipafc.carousel = function(){
   var mySwiper = new Swiper ('.swiper-container', {
     // Optional parameters
     direction: 'horizontal',

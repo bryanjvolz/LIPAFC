@@ -3,39 +3,81 @@
 **/
 
 .swiper-container {
-  height: 60vh;
-  min-height: 500px;
+  height: 85vh;
+  min-height: 600px;
+  overflow: hidden;
+}
+
+.swiper-button-previous {
+  margin-left: .5em;
+}
+.swiper-button-next {
+  margin-right: .5em;
 }
 
 .swiper-title {
   font-family: $header-font;
   font-size: rem(80);
   margin-top: 0;
+  position: relative;
+  z-index: 2;
+
+  &:before {
+    content: attr(title);
+    position: absolute;
+    top: -8rem;
+    left: -10vw;
+    font-size: 50vw;
+    opacity: .15;
+    z-index: 0;
+    @media screen and (min-width: 768px){
+      top: -15rem;
+    }
+  }
 }
 
 .swiper-slide {
   background-color: #d1d1d1;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
+
+  .container {
+    max-width: 80%;
+    height: 100%;
+    font-size: 24px;
+  }
+}
+
+.swiper-slide p.history-description {
+  @media screen and (min-width: 1400px){
+    font-size: 1.85rem;
+  }
 }
 
 .swiper-slide .credits {
   background-color: #e1e1e1;
+  border-radius: rem(3);
   color: #333;
   display: inline-block;
   font-family: $book-font;
-  font-size: .85rem;
+  font-size: .75rem;
   padding: 1.15em .75em .75em;
-  border-radius: rem(3);
   position: relative;
+
+  @media screen and (min-width: $md){
+    bottom: 1.75rem;
+    position: absolute;
+  }
+
 
   &:before {
     content: 'Credit:';
     font-family: $header-font;
+    left: .75em;
     position: absolute;
-    top: 0;
-    left: .75rem;
     text-shadow: 0 0 2px solid #fff;
+    top: 0;
   }
 }
 
@@ -57,18 +99,18 @@
 .swiper-slide[data-year="1868"] {
   background-image: url('/assets/img/featured/1868-groove-machine.jpg');
   background-size: cover;
-  text-shadow: 1px solid #fff;
   position: relative;
+  text-shadow: 1px solid #fff;
 
   .container {
     position: relative;
   }
 
   &:before {
-    position: absolute;
-    content: ' ';
     background-color: rgba(255,255,255,.75);
+    content: ' ';
     height: 100%;
+    position: absolute;
     width: 100%;
   }
 }
