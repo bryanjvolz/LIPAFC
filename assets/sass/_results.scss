@@ -1,9 +1,8 @@
 /**
-* Latest REsults block
+* Latest Results block
 */
 
 .latest-results {
-  // left: 15vw;
   align-items: center;
   background-color: #e1e1e1;
   display: flex;
@@ -32,9 +31,6 @@
   }
 }
 
-// .latest-results__logo {
-
-// }
 .latest-results__result {
   display: flex;
   justify-content: space-evenly;

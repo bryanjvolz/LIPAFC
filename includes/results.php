@@ -14,12 +14,16 @@
                 <optgroup>
                   <option value="">Classical</option>
                   <option value="1945">1945</option>
-                  <option value="1921">1921</option>
-                  <option value="1925">1925</option>
                   <option value="1932">1932</option>
+                  <option value="1937">1937</option>
                   <option value="1936">1936</option>
-                  <option value="1863">1863</option>
-
+                  <option value="1932">1932</option>
+                  <option value="1926">1926</option>
+                  <option value="1925">1925</option>
+                  <option value="1921">1921</option>
+                  <option value="1918">1918</option>
+                  <option value="1878">1878</option>
+                  <option value="1968">1968</option>
                   <option value="ancient">Ancient History</option>
                 </optgroup>
               </select>
@@ -114,6 +118,14 @@
                       <td>One-off WWII Victory Match</td>
                     </tr>
 
+                    <tr data-year="1937">
+                      <td>July 18, 1937</td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                      <td>Madison, Indiana</td>
+                      <td>Rock Throw Cookout</td>
+                    </tr>
+
                     <tr data-year="1936">
                       <td>July 4, 1936</td>
                       <td>0 - 4</td>
@@ -131,18 +143,27 @@
                     </tr>
 
                     <tr data-year="1926">
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
+                      <td>August 4 & August 20 1926</td>
+                      <td>1 - 1</td>
+                      <td>Draw</td>
+                      <td>Flood zone</td>
+                      <td>N/A</td>
                     </tr>
 
                     <tr data-year="1925">
-                      <td>May 27, 2015</td>
-                      <td>0 - 2</td>
+                      <td>May 27, 1925</td>
+                      <td>4 - 1</td>
+                      <td>Indianapolis</td>
+                      <td>Indiana Fairgrounds</td>
+                      <td>Coca-Cola Cocaine Classic</td>
+                    </tr>
+
+                    <tr data-year="1918">
+                      <td>May 27, 1918</td>
+                      <td>3 - 1</td>
                       <td>Louisville</td>
-                      <td>Carroll Stadium, IUPUI</td>
-                      <td>US Open Cup</td>
+                      <td>Kentucky State Fairgrounds</td>
+                      <td>Jib-Jab Footballery Challenge</td>
                     </tr>
 
                     <tr data-year="1878">
@@ -151,6 +172,14 @@
                       <td>Louisville</td>
                       <td>Churchill Downs Infield</td>
                       <td>Kentucky Derby Sporting Goodtimes Championship</td>
+                    </tr>
+
+                    <tr data-year="1868">
+                      <td>September 2, 1868 - 'The Bloody Affair'</td>
+                      <td>0 - 0</td>
+                      <td>Draw</td>
+                      <td>Indianapolis Motor Speedway Infield</td>
+                      <td>N/A</td>
                     </tr>
 
                     <tr data-year="ancient">

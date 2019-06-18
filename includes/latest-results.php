@@ -15,6 +15,6 @@
     </div>
   </div>
 
-  <span>Next Match: June 29<sup>th</sup> 2019</span>
+  <span>Next Match: <a href="https://www1.ticketmaster.com/indy-eleven-vs-louisville-city-fc/event/05005659D8C65644" target="_blank">June 29<sup>th</sup> 2019</a></span>
 
 </section>

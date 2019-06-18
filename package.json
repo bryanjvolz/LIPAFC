@@ -1,6 +1,6 @@
 {
   "name": "lipafc",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "LIPAFC web files",
   "author": {
     "name": "Bryan V",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
-    "browser-sync": "^2.26.5",
+    "browser-sync": "^2.26.7",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglifycss": "^1.1.0",
