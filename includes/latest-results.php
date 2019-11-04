@@ -1,7 +1,7 @@
 <section id="latest-results" class="latest-results">
-  <span>Latest Results: October 20<sup>th</sup> 2018</span>
+  <span>Latest Results: <a href="https://www.uslchampionship.com/louisvillecityfc-indyeleven-1037416" target="_blank" rel="noopener noreferrer">Aug 30<sup>th</sup> 2019</a></span>
   <div class="latest-results__result">
-    <span class="latest-results__score">4</span>
+    <span class="latest-results__score">1</span>
     <div class="latest-results__team">
       <img src="assets/img/logos/louisville_city_2star.svg" alt="Louisville City Logo" class="latest-results__logo">
       <span>LOU</span>
@@ -15,6 +15,6 @@
     </div>
   </div>
 
-  <span>Next Match: <a href="https://www1.ticketmaster.com/indy-eleven-vs-louisville-city-fc/event/05005659D8C65644" target="_blank">June 29<sup>th</sup> 2019</a></span>
+  <span>Next Match: November 9<sup>th</sup> 2019</span>
 
 </section>

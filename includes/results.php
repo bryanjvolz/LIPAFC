@@ -2,6 +2,7 @@
             <div class="container">
             <h1>LIPAFC Match History</h1>
             <nav>
+              <label for="year-select" name="year-select" class="hidden">Select Year</label>
               <select id="year-select" class="year-select">
                 <optgroup>
                   <option value="<?php echo date('Y'); ?>">Modern Era</option>
@@ -40,18 +41,25 @@
                   </thead>
                   <tbody>
                     <tr data-year="2019">
-                      <td>June 29, 2019</td>
-                      <td>TBD</td>
-                      <td>Indianapolis</td>
+                      <td><a href="https://www.uslchampionship.com/indyeleven-louisvillecityfc-1037249" target="_blank" rel="noopener noreferrer">June 29, 2019</a></td>
+                      <td>1-1</td>
+                      <td>Draw</td>
                       <td>Lucas Oil Stadium</td>
                       <td>USL Regular Season</td>
                     </tr>
                     <tr data-year="2019">
-                      <td>August 30, 2019</td>
-                      <td>TBD</td>
-                      <td>Louisville</td>
+                      <td><a href="https://www.uslchampionship.com/louisvillecityfc-indyeleven-1037416" target="_blank" rel="noopener noreferrer">August 30, 2019</a></td>
+                      <td>1-1</td>
+                      <td>Draw</td>
                       <td>Slugger Field</td>
                       <td>USL Regular Season</td>
+                    </tr>
+                    <tr data-year="2019">
+                      <td>November 9, 2019</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Carroll Stadium</td>
+                      <td>USL Eastern Conference Final</td>
                     </tr>
                     <tr data-year="2018">
                       <td>October 20, 2018</td>
