@@ -56,9 +56,9 @@
                     </tr>
                     <tr data-year="2019">
                       <td>November 9, 2019</td>
-                      <td>TBD</td>
-                      <td>TBD</td>
-                      <td>Carroll Stadium</td>
+                      <td>1-3</td>
+                      <td>Louisville</td>
+                      <td>Carroll Stadium, IUPUI</td>
                       <td>USL Eastern Conference Final</td>
                     </tr>
                     <tr data-year="2018">
