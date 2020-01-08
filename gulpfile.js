@@ -9,7 +9,7 @@ var uglifycss = require('gulp-uglifycss');
 var uglify = require('gulp-uglify');
 var pump = require('pump');
 
-
+~
 gulp.task('default',function() {
   gulp.watch('assets/sass/*.scss',gulp.series('sass'));
   gulp.watch('assets/src/*js',gulp.series('compress'));

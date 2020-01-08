@@ -6,6 +6,7 @@
               <select id="year-select" class="year-select">
                 <optgroup>
                   <option value="<?php echo date('Y'); ?>">Modern Era</option>
+                  <option value="2020">2020</option>
                   <option value="2019">2019</option>
                   <option value="2018">2018</option>
                   <option value="2017">2017</option>
@@ -40,6 +41,13 @@
                     </tr>
                   </thead>
                   <tbody>
+                    <tr data-year="2020">
+                    <td><a href="https://www.uslchampionship.com/indyeleven-louisvillecityfc-1037249" target="_blank" rel="noopener noreferrer">April 4, 2019</a></td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Lucas Oil Stadium</td>
+                      <td>USL Regular Season, 2020 Season Opener</td>
+                    </tr>
                     <tr data-year="2019">
                       <td><a href="https://www.uslchampionship.com/indyeleven-louisvillecityfc-1037249" target="_blank" rel="noopener noreferrer">June 29, 2019</a></td>
                       <td>1-1</td>
@@ -55,7 +63,7 @@
                       <td>USL Regular Season</td>
                     </tr>
                     <tr data-year="2019">
-                      <td>November 9, 2019</td>
+                      <td><a href="https://www.uslchampionship.com/louisvillecityfc-indyeleven-1037416" target="_blank" rel="noopener noreferrer">November 9, 2019</a></td>
                       <td>1-3</td>
                       <td>Louisville</td>
                       <td>Carroll Stadium, IUPUI</td>
