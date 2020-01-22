@@ -27,7 +27,7 @@
         <![endif]-->
         <?php include 'includes/header.php'; ?>
 
-        <main>
+        <main id="main-content">
 
           <?php include 'includes/latest-results.php'; ?>
 
@@ -36,7 +36,7 @@
               <h1>The Heck is this?</h1>
               <p>The LIPAFC (Louisville-INDIANAPOLIS PROXIMITY&hellip; oh don't make me type it again) is the soccer rivalry between Indianapolis Eleven and Louisville City FC. As aluded above, this clash of titans is the cause for humanity’s ascension to control this planet. Much like Bill &amp; Ted, this rivalry has spanned the ages and will some day bring peace to the world&hellip; once they learn to play guitar. While sporting celebs will tell you grand tales of Worldly Cups or Superb Owls, only the LIPAFC will tug your heartstrings like a puppy and tear you apart like finding out what happened to Bambi’s mom.</p>
 
-              <h3>PREPARE YOURSELF EARTHLINGS, FOR THE LIPAFC</h3>
+              <p><strong>PREPARE YOURSELF EARTHLINGS, FOR THE LIPAFC</strong></p>
             </div>
           </section>
 

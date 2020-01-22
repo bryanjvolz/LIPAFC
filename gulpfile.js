@@ -23,10 +23,7 @@ gulp.task('sass', function () {
     "maxLineLen": 80,
     "uglyComments": true
   }))
-  .pipe(autoprefixer({
-    browsers: ['last 2 versions'],
-    cascade: false
-  }))
+  .pipe(autoprefixer())
   .pipe(sourcemaps.write())
   .pipe(gulp.dest('./assets/css'))
   .pipe(browserSync.stream());

@@ -1,9 +1,9 @@
 <section id="results" class="results">
             <div class="container">
             <h1>LIPAFC Match History</h1>
-            <nav>
-              <label for="year-select" name="year-select" class="hidden">Select Year</label>
-              <select id="year-select" class="year-select">
+            <nav aria-label="Match history navigation">
+              <label for="year-select" name="year-select" class="year-select-label">Select Year</label>
+              <select id="year-select" class="year-select" aria>
                 <optgroup>
                   <option value="<?php echo date('Y'); ?>">Modern Era</option>
                   <option value="2020">2020</option>

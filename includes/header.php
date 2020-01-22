@@ -1,17 +1,19 @@
 <header>
-  <nav class="main-nav">
-    <a href="#intro" aria-label="LIPAFC.com Home" class="mobile-logo"><img src="assets/img/logos/lipafc_cup.svg" alt="LIPAFC Cup Icon"></a>
+<nav class="main-nav" aria-label="main navigation">
+  <a href="#main-content" id="skip" class="skip-link" tabindex="0">Skip Content</a>
 
-    <div class="menu-toggle"></div>
+  <a href="#intro" aria-label="LIPAFC.com Home" class="mobile-logo" tabindex="0"><img src="assets/img/logos/lipafc_cup.svg" alt="LIPAFC Cup Icon"></a>
 
-    <ul>
-      <li><a href="#intro" aria-label="LIPAFC.com Home"><img src="assets/img/logos/lipafc_cup.svg" alt="LIPAFC Cup Icon"></a></li>
-      <li><a href="#latest-results">Latest Results</a></li>
-      <li><a href="#about-lipafc">LIPAFC Info</a></li>
-      <li><a href="#results">Results</a></li>
-      <li><a href="#featured-matchups">Looking Back</a></li>
-    </ul>
-  </nav>
+  <div class="menu-toggle" aria-label="Mobile Navigation Toggle" tabindex="0"></div>
+
+  <ul>
+    <li><a href="#intro" aria-label="LIPAFC.com Home" tabindex="0"><img src="assets/img/logos/lipafc_cup.svg" alt="LIPAFC Cup Icon"></a></li>
+    <li><a href="#latest-results" tabindex="0">Latest Results</a></li>
+    <li><a href="#about-lipafc" tabindex="0">LIPAFC Info</a></li>
+    <li><a href="#results" tabindex="0">Results</a></li>
+    <li><a href="#featured-matchups" tabindex="0">Looking Back</a></li>
+  </ul>
+</nav>
 
   <section class="intro wrap">
       <div class="container">
