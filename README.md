@@ -2,8 +2,8 @@
 
 A simple site to show standings and history of the Louisville-Indianapolis Proximity Association Football Contest.
 
-#Build
+# Build
 Runs Gulp to uglify/minify CSS and JS
 
-#Serve
+# Serve
 Uses Laravel Valet to serve locally
