@@ -42,11 +42,32 @@
                   </thead>
                   <tbody>
                     <tr data-year="2020">
-                    <td><a href="https://www.uslchampionship.com/indyeleven-louisvillecityfc-1037249" target="_blank" rel="noopener noreferrer">April 4, 2019</a></td>
+                    <td>August 8, 2020</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Lynn Family Stadium</td>
+                      <td>USL Regular Season*</td>
+                    </tr>
+                    <tr data-year="2020">
+                    <td>August 26, 2020</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Lynn Family Stadium</td>
+                      <td>USL Regular Season*</td>
+                    </tr>
+                    <tr data-year="2020">
+                    <td>September 5, 2020</td>
                       <td>TBD</td>
                       <td>TBD</td>
                       <td>Lucas Oil Stadium</td>
-                      <td>USL Regular Season, 2020 Season Opener</td>
+                      <td>USL Regular Season*</td>
+                    </tr>
+                    <tr data-year="2020">
+                    <td>September 16, 2019</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Lucas Oil Stadium</td>
+                      <td>USL Regular Season*</td>
                     </tr>
                     <tr data-year="2019">
                       <td><a href="https://www.uslchampionship.com/indyeleven-louisvillecityfc-1037249" target="_blank" rel="noopener noreferrer">June 29, 2019</a></td>

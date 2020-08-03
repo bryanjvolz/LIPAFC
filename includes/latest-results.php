@@ -15,6 +15,6 @@
     </div>
   </div>
 
-  <span>Next Match: <a href="https://www.indyeleven.com/tickets" target="_blank" rel="noopener noreferrer">April 4th, 2020</a></span>
+  <span>Next Match: <!--<a href="https://www.indyeleven.com/tickets" target="_blank" rel="noopener noreferrer">-->August 8, 2020<!--</a>--></span>
 
 </section>
