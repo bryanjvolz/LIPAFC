@@ -43,8 +43,8 @@
                   <tbody>
                     <tr data-year="2020">
                     <td>August 8, 2020</td>
-                      <td>TBD</td>
-                      <td>TBD</td>
+                      <td>1-1</td>
+                      <td>Draw</td>
                       <td>Lynn Family Stadium</td>
                       <td>USL Regular Season*</td>
                     </tr>
