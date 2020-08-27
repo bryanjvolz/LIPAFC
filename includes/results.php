@@ -50,8 +50,8 @@
                     </tr>
                     <tr data-year="2020">
                     <td>August 26, 2020</td>
-                      <td>TBD</td>
-                      <td>TBD</td>
+                      <td>1-0</td>
+                      <td>Louisville</td>
                       <td>Lynn Family Stadium</td>
                       <td>USL Regular Season*</td>
                     </tr>
