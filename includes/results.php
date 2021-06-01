@@ -6,6 +6,7 @@
               <select id="year-select" class="year-select" aria>
                 <optgroup>
                   <option value="<?php echo date('Y'); ?>">Modern Era</option>
+                  <option value="2021">2021</option>
                   <option value="2020">2020</option>
                   <option value="2019">2019</option>
                   <option value="2018">2018</option>
@@ -41,6 +42,34 @@
                     </tr>
                   </thead>
                   <tbody>
+                  <tr data-year="2021">
+                    <td>October 16, 2021</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Carroll Stadium</td>
+                      <td>USL Regular Season</td>
+                    </tr>
+                  <tr data-year="2021">
+                    <td>September 18, 2021</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Carroll Stadium</td>
+                      <td>USL Regular Season</td>
+                    </tr>
+                    <tr data-year="2021">
+                    <td>June 26, 2021</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Lynn Family Stadium</td>
+                      <td>USL Regular Season</td>
+                    </tr>
+                  <tr data-year="2021">
+                    <td>May 29, 2021</td>
+                      <td>1-2</td>
+                      <td>Indianapolis</td>
+                      <td>Lynn Family Stadium</td>
+                      <td>USL Regular Season</td>
+                    </tr>
                     <tr data-year="2020">
                     <td>August 8, 2020</td>
                       <td>1-1</td>
@@ -57,13 +86,13 @@
                     </tr>
                     <tr data-year="2020">
                     <td>September 5, 2020</td>
-                      <td>TBD</td>
-                      <td>TBD</td>
+                      <td>1-3</td>
+                      <td>Louisville</td>
                       <td>Lucas Oil Stadium</td>
                       <td>USL Regular Season*</td>
                     </tr>
                     <tr data-year="2020">
-                    <td>September 16, 2019</td>
+                    <td>September 16, 2020</td>
                       <td>TBD</td>
                       <td>TBD</td>
                       <td>Lucas Oil Stadium</td>
