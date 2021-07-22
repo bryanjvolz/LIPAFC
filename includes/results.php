@@ -58,8 +58,8 @@
                     </tr>
                     <tr data-year="2021">
                     <td>June 26, 2021</td>
-                      <td>TBD</td>
-                      <td>TBD</td>
+                      <td>3-3</td>
+                      <td>Draw</td>
                       <td>Lynn Family Stadium</td>
                       <td>USL Regular Season</td>
                     </tr>
