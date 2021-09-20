@@ -51,8 +51,8 @@
                     </tr>
                   <tr data-year="2021">
                     <td>September 18, 2021</td>
-                      <td>TBD</td>
-                      <td>TBD</td>
+                      <td>0-2</td>
+                      <td>Louisville</td>
                       <td>Carroll Stadium</td>
                       <td>USL Regular Season</td>
                     </tr>
