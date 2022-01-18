@@ -3,9 +3,10 @@
             <h1>LIPAFC Match History</h1>
             <nav aria-label="Match history navigation">
               <label for="year-select" name="year-select" class="year-select-label">Select Year</label>
-              <select id="year-select" class="year-select" aria>
+              <select id="year-select" class="year-select">
                 <optgroup>
                   <option value="<?php echo date('Y'); ?>">Modern Era</option>
+                  <option value="2022">2022</option>
                   <option value="2021">2021</option>
                   <option value="2020">2020</option>
                   <option value="2019">2019</option>
@@ -42,13 +43,27 @@
                     </tr>
                   </thead>
                   <tbody>
-                  <tr data-year="2021">
-                    <td>October 16, 2021</td>
+                  <tr data-year="2022">
+                    <td>March 26, 2022</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Lynnn Family Stadium</td>
+                      <td>USL Regular Season</td>
+                  </tr>
+                  <tr data-year="2022">
+                    <td>June 11, 2022</td>
                       <td>TBD</td>
                       <td>TBD</td>
                       <td>Carroll Stadium</td>
                       <td>USL Regular Season</td>
-                    </tr>
+                  </tr>
+                  <tr data-year="2021">
+                    <td>October 16, 2021</td>
+                      <td>1-0</td>
+                      <td>Indianapolis</td>
+                      <td>Carroll Stadium</td>
+                      <td>USL Regular Season</td>
+                  </tr>
                   <tr data-year="2021">
                     <td>September 18, 2021</td>
                       <td>0-2</td>
