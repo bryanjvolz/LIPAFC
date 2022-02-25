@@ -44,17 +44,17 @@
                   </thead>
                   <tbody>
                   <tr data-year="2022">
+                    <td>August 31, 2022</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Carroll Stadium</td>
+                      <td>USL Regular Season</td>
+                  </tr>
+                  <tr data-year="2022">
                     <td>March 26, 2022</td>
                       <td>TBD</td>
                       <td>TBD</td>
                       <td>Lynnn Family Stadium</td>
-                      <td>USL Regular Season</td>
-                  </tr>
-                  <tr data-year="2022">
-                    <td>June 11, 2022</td>
-                      <td>TBD</td>
-                      <td>TBD</td>
-                      <td>Carroll Stadium</td>
                       <td>USL Regular Season</td>
                   </tr>
                   <tr data-year="2021">
