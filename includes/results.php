@@ -52,9 +52,9 @@
                   </tr>
                   <tr data-year="2022">
                     <td>March 26, 2022</td>
-                      <td>TBD</td>
-                      <td>TBD</td>
-                      <td>Lynnn Family Stadium</td>
+                      <td>1-1</td>
+                      <td>Draw</td>
+                      <td>Lynn Family Stadium</td>
                       <td>USL Regular Season</td>
                   </tr>
                   <tr data-year="2021">
