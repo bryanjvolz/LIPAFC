@@ -44,14 +44,14 @@
                   </thead>
                   <tbody>
                   <tr data-year="2022">
-                    <td>August 31, 2022</td>
-                      <td>TBD</td>
-                      <td>TBD</td>
+                    <td><a href="https://www.youtube.com/watch?v=ev2CSovEGi4" target="_blank">August 31, 2022</a></td>
+                      <td>2-1</td>
+                      <td>Indianapolis</td>
                       <td>Carroll Stadium</td>
                       <td>USL Regular Season</td>
                   </tr>
                   <tr data-year="2022">
-                    <td>March 26, 2022</td>
+                    <td><a href="https://www.youtube.com/watch?v=5712LSGXim8" target="_blank">March 26, 2022</a></td>
                       <td>1-1</td>
                       <td>Draw</td>
                       <td>Lynn Family Stadium</td>
@@ -108,8 +108,8 @@
                     </tr>
                     <tr data-year="2020">
                     <td>September 16, 2020</td>
-                      <td>TBD</td>
-                      <td>TBD</td>
+                      <td>2-0</td>
+                      <td>Louisville</td>
                       <td>Lucas Oil Stadium</td>
                       <td>USL Regular Season*</td>
                     </tr>
