@@ -22,7 +22,7 @@ $white : #fff;
 //$baseFontSize : 16;
 $base-font-size: 18;
 
-$header-font: 'bebasNeueBold', Helvetica, Arial, sans-serif;
+$header-font: 'bebasNeueRegular', Helvetica, Arial, sans-serif;
 $body-font: 'bebasNeueRegular', Helvetica, Arial, sans-serif;
 $light-font: 'bebasNeueLight', Helvetica, Arial, sans-serif;
 $book-font: 'bebasNeueBook', Helvetica, Arial, sans-serif;
@@ -35,7 +35,9 @@ $theme-colors : (
   'test': #9C9C9C
 );
 
-//Nav
-$bar-width: 50px;
-$bar-height: 6px;
-$bar-spacing: 12px;
+:root{
+  //Nav
+  --bar-width : 1.5em;
+  --bar-height : .25em;
+  --bar-spacing : .5em;
+}

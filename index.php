@@ -4,20 +4,20 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title><?php echo date('Y'); ?> Louisville-Indianapolis Proximity Association Football Contest | LIPAFC.com</title>
-        <meta name="description" content="Louisville-Indianapolis Proximity Association Football Contest ">
+        <meta name="description" content="Louisville-Indianapolis Proximity Association Football Contest - The most important soccer rivalry in the World">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/normalize.css">
         <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="/node_modules/swiper/dist/css/swiper.min.css">
+        <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
-        <link rel="manifest" href="/assets/site.webmanifest">
-        <link rel="mask-icon" href="/assets/img/safari-pinned-tab.svg" color="#238dde">
+        <link rel="manifest" href="assets/site.webmanifest">
+        <link rel="mask-icon" href="assets/img/safari-pinned-tab.svg" color="#238dde">
         <meta name="msapplication-TileColor" content="#238dde">
         <meta name="theme-color" content="#238dde">
     </head>
@@ -61,7 +61,7 @@
 
         <?php include 'includes/footer.php' ?>
 
-        <script src="/node_modules/swiper/dist/js/swiper.min.js"></script>
+        <script src="node_modules/swiper/swiper-bundle.min.js"></script>
         <script src="assets/js/vendor/jquery.min.js"></script>
         <script src="assets/js/src/main.js"></script>
 
