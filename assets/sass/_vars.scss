@@ -35,11 +35,9 @@ $theme-colors : (
   'test': #9C9C9C
 );
 
-//Nav
-// $bar-width: 50px;
-// $bar-height: 6px;
-// $bar-spacing: 12px;
-
-$bar-width: 1.5em;
-$bar-height: .25em;
-$bar-spacing: .35em;
+:root{
+  //Nav
+  --bar-width : 1.5em;
+  --bar-height : .25em;
+  --bar-spacing : .5em;
+}

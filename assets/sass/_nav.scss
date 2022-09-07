@@ -212,13 +212,13 @@ header {
 .menu-toggle,
 .menu-toggle:after,
 .menu-toggle:before {
-  width: $bar-width;
-	height: $bar-height;
+  width: var(--bar-width);
+	height: var(--bar-height);
 }
 
 .menu-toggle {
 	position: relative;
-	transform: translateY($bar-spacing);
+	transform: translateY(var(--bar-spacing));
 	background: rgba(255, 255, 255, 1);
   transition: all 0ms 300ms;
   margin-left: auto;
@@ -240,7 +240,7 @@ header {
 	content: "";
 	position: absolute;
 	left: 0;
-	bottom: $bar-spacing;
+	bottom: var(--bar-spacing);
 	background: rgba(255, 255, 255, 1);
 	transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
@@ -249,7 +249,7 @@ header {
 	content: "";
 	position: absolute;
 	left: 0;
-	top: $bar-spacing;
+	top: var(--bar-spacing);
 	background: rgba(255, 255, 255, 1);
 	transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
 }
