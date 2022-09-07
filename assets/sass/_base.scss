@@ -104,12 +104,7 @@ img {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  padding-top: 25%;
-
-  @media screen and (min-width: $md){
-    //padding-top: rem(10);
-    padding-top: 15%;
-  }
+  padding-top: 12vh;
 
    @media screen and (min-width: $lg){
     padding-top: 12vh;

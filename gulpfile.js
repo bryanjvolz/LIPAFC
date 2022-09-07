@@ -35,7 +35,7 @@ gulp.task('sass', function () {
 
 gulp.task('compress', function (cb) {
   pump([
-        gulp.src('assets/src/*.js'),
+        gulp.src('assets/js/src/*.js'),
         uglify(),
         gulp.dest('assets/dist')
     ],

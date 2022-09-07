@@ -2,18 +2,35 @@
 * Swiper carousel styles
 **/
 
+.featured-matchups {
+  position: relative;
+}
+
 .swiper-container {
   height: 100vh;
   min-height: 600px;
   overflow: hidden;
+  position: relative;
+
   @media screen and (min-width: $md){
     height: 85vh;
+  }
+}
+
+.featured-matchups .swiper-button-next, .featured-matchups .swiper-button-prev {
+  color: white;
+  background-color: rgba(0,0,0,.4);
+  padding: 1rem;
+
+  &:hover {
+    background-color: rgba(0,0,0,.65);
   }
 }
 
 .swiper-button-previous {
   margin-left: .5em;
 }
+
 .swiper-button-next {
   margin-right: .5em;
 }
@@ -51,6 +68,10 @@
     height: 100%;
     font-size: 1.25rem;
 
+    p {
+      z-index: 5;
+    }
+
     @media screen and (min-width: $lg){
       font-size: 3.5vw;
     }
@@ -82,7 +103,6 @@
     bottom: 1.75rem;
     position: absolute;
   }
-
 
   &:before {
     content: 'Credit:';

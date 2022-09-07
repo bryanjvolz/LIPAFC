@@ -53,23 +53,25 @@ lipafc.events = function(){
 };
 
 lipafc.carousel = function(){
-  var mySwiper = new Swiper ('.swiper-container', {
-    // Optional parameters
-    direction: 'horizontal',
+  var swiper = new Swiper('.swiper-container', {
+    direction: 'vertical',
     loop: true,
-    parallax: true,
 
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
-      clickable: true
     },
 
     // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
-    }
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
   });
 }
 
