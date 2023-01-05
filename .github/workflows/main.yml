@@ -12,5 +12,5 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v3
         with:
-          project: ./site
+          project: ./test/cypress/
           browser: chrome
