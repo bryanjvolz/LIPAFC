@@ -6,6 +6,7 @@
               <select id="year-select" class="year-select">
                 <optgroup>
                   <option value="<?php echo date('Y'); ?>">Modern Era</option>
+                  <option value="2023">2023</option>
                   <option value="2022">2022</option>
                   <option value="2021">2021</option>
                   <option value="2020">2020</option>
@@ -43,6 +44,13 @@
                     </tr>
                   </thead>
                   <tbody>
+                  <tr data-year="2023">
+                    <td>TBD</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>USL Regular Season</td>
+                  </tr>
                   <tr data-year="2022">
                     <td><a href="https://www.youtube.com/watch?v=ev2CSovEGi4" target="_blank">August 31, 2022</a></td>
                       <td>2-1</td>
