@@ -45,10 +45,17 @@
                   </thead>
                   <tbody>
                   <tr data-year="2023">
-                    <td>TBD</td>
+                      <td>May 27, 2023</td>
                       <td>TBD</td>
                       <td>TBD</td>
+                      <td>Carroll Stadium</td>
+                      <td>USL Regular Season</td>
+                  </tr>
+                  <tr data-year="2023">
+                      <td>July 29, 2023</td>
                       <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Lynn Family Stadium</td>
                       <td>USL Regular Season</td>
                   </tr>
                   <tr data-year="2022">
