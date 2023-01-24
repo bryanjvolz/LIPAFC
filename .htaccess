@@ -110,3 +110,6 @@ FilterProtocol  COMPRESS  DEFLATE change=yes;byteranges=no
     SetOutputFilter DEFLATE
   </FilesMatch>
 </IfModule>
+
+## ADD CSP Jan 23 2023
+Header add Content-Security-Policy: "default-src 'self';font-src fonts.gstatic.com *.lipafc.com;style-src 'self' fonts.googleapis.com *.lipafc.com"
