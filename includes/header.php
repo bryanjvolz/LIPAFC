@@ -2,12 +2,12 @@
 <nav class="main-nav" aria-label="main navigation">
   <a href="#main-content" id="skip" class="skip-link" tabindex="0">Skip Content</a>
 
-  <a href="#intro" aria-label="LIPAFC.com Home" class="mobile-logo" tabindex="0"><img src="assets/img/logos/lipafc_cup.svg" alt="LIPAFC Cup Icon"></a>
+  <a href="#intro" aria-label="LIPAFC.com Home" class="mobile-logo" tabindex="0"><img src="assets/img/logos/lipafc_cup.svg" alt="LIPAFC Cup Icon" height="41px" width="38px"></a>
 
   <div class="menu-toggle" aria-label="Mobile Navigation Toggle" tabindex="0"></div>
 
   <ul>
-    <li><a href="#intro" aria-label="LIPAFC.com Home" tabindex="0"><img src="assets/img/logos/lipafc_cup.svg" alt="LIPAFC Cup Icon"></a></li>
+    <li><a href="#intro" aria-label="LIPAFC.com Home" tabindex="0"><img src="assets/img/logos/lipafc_cup.svg" alt="LIPAFC Cup Icon"  height="68px" width="75px"></a></li>
     <li><a href="#latest-results" tabindex="0">Latest Results</a></li>
     <li><a href="#about-lipafc" tabindex="0">LIPAFC Info</a></li>
     <li><a href="#results" tabindex="0">Results</a></li>
