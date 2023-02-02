@@ -116,8 +116,12 @@ FilterProtocol  COMPRESS  DEFLATE change=yes;byteranges=no
   </FilesMatch>
 </IfModule>
 
-## ADD CSP Jan 23 2023
-Header add Content-Security-Policy: "default-src 'self';img-src 'self' data:;font-src fonts.gstatic.com *.lipafc.com;style-src 'self' fonts.googleapis.com *.lipafc.com"
+## ADD CSP Jan 2023
+<IfModule mod_headers.c>
+    <FilesMatch "\.(htm|html|php|js)$">
+Header add Content-Security-Policy: "font-src fonts.gstatic.com *.lipafc.com; style-src 'self' fonts.googleapis.com *.lipafc.com; script-src 'unsafe-inline' *.googletagmanager.com *.lipafc.com; img-src *.googletagmanager.com 'self' data:"
+    </FilesMatch>
+</IfModule>
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php74” package as the default “PHP” programming language.

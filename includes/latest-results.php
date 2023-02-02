@@ -10,7 +10,7 @@
   <div class="latest-results__result">
     <span class="latest-results__score">1</span>
     <div class="latest-results__team">
-      <img src="assets/img/logos/louisvillecity_2020_logo.png" alt="Louisville City Logo" class="latest-results__logo" width="75px" height="100px">
+      <img src="assets/img/logos/louisvillecity_2020_logo.webp" alt="Louisville City Logo" class="latest-results__logo" width="75px" height="100px">
       <span>LOU</span>
     </div>
   </div>
