@@ -46,8 +46,8 @@
                   <tbody>
                   <tr data-year="2023">
                       <td>May 27, 2023</td>
-                      <td>TBD</td>
-                      <td>TBD</td>
+                      <td>0-1</td>
+                      <td>Louisville</td>
                       <td>Carroll Stadium</td>
                       <td>USL Regular Season</td>
                   </tr>
