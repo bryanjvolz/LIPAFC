@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
-    "browser-sync": "^2.27.11",
+    "browser-sync": "^2.29.3",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
