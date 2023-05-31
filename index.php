@@ -59,7 +59,7 @@
                     <li>In the event that the season series is split, the current holders retain possession of The Barrel.</li>
                     <li>If the teams meet in the playoffs and the series is tied, the playoff game decides the winner of The Barrel.</li>
                     <li>Each season, the winner is marked with a blue or purple carabiner that hands from the top of The Barrel.</li>
-                    <li>The modern-day Barrel was created in 2022. However, an older version was rumored to have been a barrel build from the very same wood as the fabled Trojan Horse.</li>
+                    <li>The modern-day Barrel was created in 2022. However, an older version was rumored to have been a barrel built from the very same wood as the fabled Trojan Horse.</li>
                   </ul>
                 </div>
               </div>
