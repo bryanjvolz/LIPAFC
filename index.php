@@ -1,13 +1,11 @@
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
-        <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-F3FQXECDTH"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
             gtag('config', 'G-F3FQXECDTH');
         </script>
         <meta charset="utf-8">
@@ -18,8 +16,8 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/normalize.css">
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="/node_modules/swiper/dist/css/swiper.min.css">
+        <link rel="stylesheet" href="assets/css/main.min.css">
+        <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.min.css">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
@@ -69,35 +67,19 @@
           <?php include 'includes/results.php'; ?>
 
           <?php include 'includes/featured-matches.php' ?>
-
-          <!-- <section class="photos">
-            <div class="container">
-            </div>
-          </section> -->
-
-          <!-- <section id="social-media" class="social">
-            <div class="social__lipafc">
-
-            </div>
-            <div class="social__hashtag">
-
-            </div>
-          </section> -->
         </main>
 
         <?php include 'includes/footer.php' ?>
 
-        <script src="/node_modules/swiper/dist/js/swiper.min.js"></script>
+        <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
         <script src="assets/js/vendor/jquery.min.js"></script>
-        <script src="assets/js/src/main.js"></script>
+        <script src="assets/js/dist/main.min.js"></script>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127480715-1"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-
           gtag('config', 'UA-127480715-1');
         </script>
 

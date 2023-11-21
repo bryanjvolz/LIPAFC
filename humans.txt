@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Bryan V. -- designer/deve;p[er] --
 
 # THANKS
 
-    <name>
+    Lou City, the Coopers, Indy 11, Brickyard & Slaughterhouse
 
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Apache Server Configs, Gulp,jQuery, Swiper, Normalize.css
