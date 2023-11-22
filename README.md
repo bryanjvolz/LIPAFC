@@ -7,3 +7,6 @@ Runs Gulp to uglify/minify CSS and JS
 
 # Serve
 Uses Laravel Valet to serve locally
+
+# Test
+Uses Cypress for e2e tests
