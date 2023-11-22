@@ -3,9 +3,10 @@
             <h1>LIPAFC Match History</h1>
             <nav aria-label="Match history navigation">
               <label for="year-select" name="year-select" class="year-select-label">Select Year</label>
-              <select id="year-select" class="year-select">
+              <select id="year-select" class="year-select" aria-controls="match-results">
                 <optgroup>
                   <option value="<?php echo date('Y'); ?>">Modern Era</option>
+                  <option value="2023">2023</option>
                   <option value="2022">2022</option>
                   <option value="2021">2021</option>
                   <option value="2020">2020</option>
@@ -32,7 +33,8 @@
                 </optgroup>
               </select>
             </nav>
-              <table>
+              <table id="match-results" aria-live="polite">
+                <caption class="visuallyhidden">LIPAFC Match Results</caption>
                   <thead>
                     <tr>
                       <th>Date</th>
@@ -43,89 +45,103 @@
                     </tr>
                   </thead>
                   <tbody>
+                  <tr data-year="2023">
+                      <td><a href="https://www.youtube.com/watch?v=NKv1cEhkfZM&t=10s" target="_blank" rel="noopener noreferrer">May 27, 2023</a></td>
+                      <td>0-1</td>
+                      <td>Louisville</td>
+                      <td>Carroll Stadium</td>
+                      <td>USL-C Regular Season</td>
+                  </tr>
+                  <tr data-year="2023">
+                      <td><a href="https://www.youtube.com/watch?v=3nEnZNj6jrM" target="_blank" rel="noopener noreferrer">July 29, 2023</a></td>
+                      <td>2-0</td>
+                      <td>Louisville</td>
+                      <td>Lynn Family Stadium</td>
+                      <td>USL-C Regular Season</td>
+                  </tr>
                   <tr data-year="2022">
                     <td><a href="https://www.youtube.com/watch?v=ev2CSovEGi4" target="_blank">August 31, 2022</a></td>
                       <td>2-1</td>
                       <td>Indianapolis</td>
                       <td>Carroll Stadium</td>
-                      <td>USL Regular Season</td>
+                      <td>USL-C Regular Season</td>
                   </tr>
                   <tr data-year="2022">
                     <td><a href="https://www.youtube.com/watch?v=5712LSGXim8" target="_blank">March 26, 2022</a></td>
                       <td>1-1</td>
                       <td>Draw</td>
                       <td>Lynn Family Stadium</td>
-                      <td>USL Regular Season</td>
+                      <td>USL-C Regular Season</td>
                   </tr>
                   <tr data-year="2021">
                     <td>October 16, 2021</td>
                       <td>1-0</td>
                       <td>Indianapolis</td>
                       <td>Carroll Stadium</td>
-                      <td>USL Regular Season</td>
+                      <td>USL-C Regular Season</td>
                   </tr>
                   <tr data-year="2021">
                     <td>September 18, 2021</td>
                       <td>0-2</td>
                       <td>Louisville</td>
                       <td>Carroll Stadium</td>
-                      <td>USL Regular Season</td>
+                      <td>USL-C Regular Season</td>
                     </tr>
                     <tr data-year="2021">
                     <td>June 26, 2021</td>
                       <td>3-3</td>
                       <td>Draw</td>
                       <td>Lynn Family Stadium</td>
-                      <td>USL Regular Season</td>
+                      <td>USL-C Regular Season</td>
                     </tr>
                   <tr data-year="2021">
                     <td>May 29, 2021</td>
                       <td>1-2</td>
                       <td>Indianapolis</td>
                       <td>Lynn Family Stadium</td>
-                      <td>USL Regular Season</td>
+                      <td>USL-C Regular Season</td>
                     </tr>
                     <tr data-year="2020">
                     <td>August 8, 2020</td>
                       <td>1-1</td>
                       <td>Draw</td>
                       <td>Lynn Family Stadium</td>
-                      <td>USL Regular Season*</td>
+                      <td>USL-C Regular Season*</td>
                     </tr>
                     <tr data-year="2020">
                     <td>August 26, 2020</td>
                       <td>1-0</td>
                       <td>Louisville</td>
                       <td>Lynn Family Stadium</td>
-                      <td>USL Regular Season*</td>
+                      <td>USL-C Regular Season*</td>
                     </tr>
                     <tr data-year="2020">
                     <td>September 5, 2020</td>
                       <td>1-3</td>
                       <td>Louisville</td>
                       <td>Lucas Oil Stadium</td>
-                      <td>USL Regular Season*</td>
+                      <td>USL-C Regular Season*</td>
                     </tr>
                     <tr data-year="2020">
                     <td>September 16, 2020</td>
                       <td>2-0</td>
                       <td>Louisville</td>
                       <td>Lucas Oil Stadium</td>
-                      <td>USL Regular Season*</td>
+                      <td>USL-C Regular Season*</td>
                     </tr>
                     <tr data-year="2019">
                       <td><a href="https://www.uslchampionship.com/indyeleven-louisvillecityfc-1037249" target="_blank" rel="noopener noreferrer">June 29, 2019</a></td>
                       <td>1-1</td>
                       <td>Draw</td>
                       <td>Lucas Oil Stadium</td>
-                      <td>USL Regular Season</td>
+                      <td>USL-C Regular Season</td>
                     </tr>
                     <tr data-year="2019">
                       <td><a href="https://www.uslchampionship.com/louisvillecityfc-indyeleven-1037416" target="_blank" rel="noopener noreferrer">August 30, 2019</a></td>
                       <td>1-1</td>
                       <td>Draw</td>
                       <td>Slugger Field</td>
-                      <td>USL Regular Season</td>
+                      <td>USL-C Regular Season</td>
                     </tr>
                     <tr data-year="2019">
                       <td><a href="https://www.uslchampionship.com/louisvillecityfc-indyeleven-1037416" target="_blank" rel="noopener noreferrer">November 9, 2019</a></td>

@@ -8,7 +8,6 @@ $(function () {
 
 
 lipafc.yearSelector = function(){
-  console.log("trigger");
   /**
    * yearSelector
    * Toggles to only show the current year

@@ -32,7 +32,10 @@ $script-font: 'Permanent Marker', cursive;
 $theme-colors : (
   'white': #fff,
   'black': #000,
-  'test': #9C9C9C
+  'test': #9C9C9C,
+  'louisville-purple':#400077,
+  'indy-blue':#0a2240,
+  'indy-red':#cf102d
 );
 
 :root{
@@ -40,4 +43,8 @@ $theme-colors : (
   --bar-width : 1.5em;
   --bar-height : .25em;
   --bar-spacing : .5em;
+  //Theme
+  --louisville-purple : #400077;
+  --indy-blue : #0a2240;
+  --indy-red : #cf102d;
 }

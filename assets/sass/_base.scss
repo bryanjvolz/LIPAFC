@@ -98,7 +98,7 @@ img {
 /** About Section **/
 .about-lipafc {
   align-items: center;
-  background-image: url('../img/info_bg.png');
+  background-image: url('../img/info_bg.webp');
   background-position: center bottom;
   background-size: cover;
   display: flex;
@@ -114,6 +114,7 @@ img {
     margin: 0;
     @media screen and (min-width: 720px){
       max-width: 50%;
+      max-width: 65ch;
     }
   }
   h3 {
@@ -125,5 +126,59 @@ img {
     @media screen and (min-width: $lg){
       font-size: 2.15vw;
     }
+  }
+}
+
+.trophy {
+  background-image:
+  linear-gradient(var(--indy-blue), var(--louisville-purple)),
+  url('../img/2022_barrel_lynnnfamilystadium.webp');
+  background-repeat: no-repeat;
+  background-blend-mode: hard-light;
+  background-size: cover;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    @media screen and (min-width: 768px){
+      align-items: center;
+      gap: 10%;
+      flex-direction: row;
+    }
+  }
+
+  p, ul {
+    font-size: 1.15rem;
+    @media screen and (min-width: 768px){
+      font-size: 1.5rem;
+    }
+  }
+
+  li {
+    margin-bottom: .5em;
+  }
+
+  h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 0;
+    @media screen and (min-width: 768px){
+      font-size: 3.5rem;
+    }
+    @media screen and (min-width: 1024px){
+      font-size: 4rem;
+    }
+  }
+}
+
+.trophy-cutout {
+  height: auto;
+  max-width: 80%;
+  @media screen and (min-width: 768px){
+    max-height: 550px;
   }
 }
