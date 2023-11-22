@@ -111,15 +111,15 @@ FilterProtocol  COMPRESS  DEFLATE change=yes;byteranges=no
 </IfModule>
 
 # webfonts and svg:
-  <FilesMatch "\.(ttf|otf|eot|svg)$" >
+  <FilesMatch "\.(ttf|otf|eot|svg|woff)$" >
     SetOutputFilter DEFLATE
   </FilesMatch>
 </IfModule>
 
 ## ADD CSP Jan 2023
 <IfModule mod_headers.c>
-    <FilesMatch "\.(htm|html|php|js)$">
-Header add Content-Security-Policy: "font-src fonts.gstatic.com *.lipafc.com; style-src 'self' fonts.googleapis.com *.lipafc.com; script-src 'unsafe-inline' *.googletagmanager.com *.lipafc.com; img-src *.googletagmanager.com 'self' data:"
+    <FilesMatch "\.(htm|html|php|js|woff)$">
+Header add Content-Security-Policy: "font-src fonts.gstatic.com *.lipafc.com 'self' data:; style-src 'self' fonts.googleapis.com *.lipafc.com; script-src 'unsafe-inline' *.googletagmanager.com *.google-analytics.com *.lipafc.com; img-src *.googletagmanager.com *.google-analytics.com 'self' data:"
     </FilesMatch>
 </IfModule>
 
