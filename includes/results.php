@@ -78,8 +78,7 @@
       <nav aria-label="Match history navigation">
         <label for="year-select" name="year-select" class="year-select-label">Select Year</label>
         <select id="year-select" class="year-select" aria-controls="match-results">
-          <optgroup>
-            <option value="<?php echo date('Y'); ?>">Modern Era</option>
+          <optgroup label="Modern Era">
             <option value="2024">2024</option>
             <option value="2023">2023</option>
             <option value="2022">2022</option>
@@ -91,10 +90,9 @@
             <option value="2016">2016</option>
             <option value="2015">2015</option>
           </optgroup>
-          <optgroup>
-            <option value="">Classical</option>
+          <optgroup label="Classical Era">
             <option value="1945">1945</option>
-            <option value="1932">1932</option>
+            <option value="1942">1942</option>
             <option value="1937">1937</option>
             <option value="1936">1936</option>
             <option value="1932">1932</option>
@@ -103,7 +101,7 @@
             <option value="1921">1921</option>
             <option value="1918">1918</option>
             <option value="1878">1878</option>
-            <option value="1968">1968</option>
+            <option value="1865">1865</option>
             <option value="ancient">Ancient History</option>
           </optgroup>
         </select>
@@ -304,6 +302,14 @@
             <td>One-off WWII Victory Match</td>
           </tr>
 
+          <tr data-year="1942">
+            <td>January 2, 1942</td>
+            <td>1 - 1</td>
+            <td>Louisville</td>
+            <td>Grünwalder Stadion</td>
+            <td>Part of celebrations following the signing of the <abbr title="United Nations">UN</abbr> charter the day before.</td>
+          </tr>
+
           <tr data-year="1937">
             <td>July 18, 1937</td>
             <td>N/A</td>
@@ -344,6 +350,14 @@
             <td>Coca-Cola Cocaine Classic</td>
           </tr>
 
+          <tr data-year="1921">
+            <td>October 4, 1921</td>
+            <td>19 - 7</td>
+            <td>Indianapolis</td>
+            <td>Newark, NJ</td>
+            <td>Pre-World Series exhibition match</td>
+          </tr>
+
           <tr data-year="1918">
             <td>May 27, 1918</td>
             <td>3 - 1</td>
@@ -366,6 +380,14 @@
             <td>Draw</td>
             <td>Indianapolis Motor Speedway Infield</td>
             <td>N/A</td>
+          </tr>
+
+          <tr data-year="1865">
+            <td>April 18, 1865</td>
+            <td>4 - 4</td>
+            <td>Draw</td>
+            <td>Louisville's Taylor Barracks drill field</td>
+            <td>A battle match to take the country's attention off the assassination of Abraham Lincoln, reigniting the rivalry after disruption by the Civil War</td>
           </tr>
 
           <tr data-year="ancient">
