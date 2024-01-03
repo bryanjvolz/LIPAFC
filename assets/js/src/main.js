@@ -19,8 +19,6 @@ lipafc.yearSelector = function(){
 };
 
 lipafc.events = function(){
-  // var yearSelect = document.getElementById("year-select");
-  // yearSelect.addEventListener("onchange", init.yearSelector());
   $("#year-select").on("change",function(){
     lipafc.yearSelector();
   });
@@ -29,14 +27,6 @@ lipafc.events = function(){
     if( window.innerWidth > 768 ){
     } else {
       $('.menu-toggle').click();
-    }
-
-    var scrollTo = $(this).attr('href');
-    if ( $(scrollTo).length && scrollTo != null && scrollTo != '') {
-      e.preventDefault();
-      $('html, body').animate({
-          scrollTop: $(scrollTo).offset().top
-      }, 500);
     }
   });
 

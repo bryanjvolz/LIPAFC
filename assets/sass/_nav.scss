@@ -60,7 +60,6 @@ header {
   flex-direction: column;
   position: relative;
   width: 100%;
-  // min-height: 100vh;
   min-height: 570px;
   justify-content: center;
   align-items: center;
@@ -166,6 +165,7 @@ header {
       text-decoration: none;
       border-bottom: 1px solid transparent;
       transition: .3s ease all;
+      scroll-behavior: smooth;
 
       &:hover, &:active {
         color: #e1e1e1;

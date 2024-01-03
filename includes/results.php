@@ -45,6 +45,21 @@
                     </tr>
                   </thead>
                   <tbody>
+                  <tr data-year="2024">
+                      <td>April 6<sup>6th</sup>, 2024</td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Lynn Family Stadium</td>
+                      <td>USL-C Regular Season</td>
+                  </tr>
+                  <tr data-year="2024">
+                      <td>October 5<sup>th</sup>, 2024</a></td>
+                      <td>TBD</td>
+                      <td>TBD</td>
+                      <td>Carroll Stadium</td>
+                      <td>USL-C Regular Season</td>
+                  </tr>
+
                   <tr data-year="2023">
                       <td><a href="https://www.youtube.com/watch?v=NKv1cEhkfZM&t=10s" target="_blank" rel="noopener noreferrer">May 27, 2023</a></td>
                       <td>0-1</td>

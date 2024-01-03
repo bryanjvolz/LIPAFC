@@ -15,6 +15,6 @@
     </div>
   </div>
 
-  <span>Next Match: TBA in 2024</span>
+  <span title="ticket link TBD">Next Match: April 6<sup>th</sup> 2024</span>
 
 </section>
