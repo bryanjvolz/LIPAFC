@@ -13,8 +13,8 @@ lipafc.yearSelector = function(){
    * Toggles to only show the current year
    */
   var currYear = $("#year-select").val();
-  $("tbody tr").not("[data-year='"+currYear+"']").hide();
-  $("tbody tr[data-year='"+currYear+"']").show();
+  $("#match-results tbody tr").not("[data-year='"+currYear+"']").hide();
+  $("#match-results tbody tr[data-year='"+currYear+"']").show();
   return;
 };
 
