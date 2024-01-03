@@ -95,7 +95,7 @@
 @media screen and (max-width: $md){
   //Mobile table styles
   .results table {
-    margin: 0 auto;
+    margin: 0 auto 2rem;
     width: 95%;
   }
   thead {
@@ -112,19 +112,26 @@
     width: 5em;
     position: relative;
   }
-  tbody tr td:first-child:before {
+  .match-results tbody tr td:first-child:before {
     content: 'Date:';
   }
-  tbody tr td:nth-child(2):before {
+  .match-results tbody tr td:nth-child(2):before {
     content: 'Score:';
   }
-  tbody tr td:nth-child(3):before {
+  .match-results tbody tr td:nth-child(3):before {
     content: 'Winner:';
   }
-  tbody tr td:nth-child(4):before {
+  .match-results tbody tr td:nth-child(4):before {
     content: 'Location:';
   }
-  tbody tr td:nth-child(5):before {
+  .match-results tbody tr td:nth-child(5):before {
     content: 'Competition:';
+  }
+}
+
+/** Overall Stats Tables **/
+@media screen and (max-width: $md){
+  .all-time tbody td:before {
+    content: attr(data-name) ':';
   }
 }

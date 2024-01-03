@@ -1,7 +1,14 @@
 /* Tables */
 
 table {
+  margin-bottom: 2em;
   width: 100%;
+}
+
+caption {
+  font-size: 1.25em;
+  line-height: 2em;
+  border-bottom: 3px solid rgba(233, 233, 233, 0.75);
 }
 
 thead, tbody, tr {
