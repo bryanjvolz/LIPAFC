@@ -104,11 +104,12 @@ img {
   background-size: cover;
   display: flex;
   justify-content: center;
-  min-height: 100vh;
-  padding-top: 12vh;
+  min-height: 650px;
+  height: 100vh;
+  padding: 7rem 0;
 
    @media screen and (min-width: $lg){
-    padding-top: 12vh;
+    padding: 9rem 0;
   }
 
   h1,p, h3 {
@@ -132,18 +133,19 @@ img {
 
 .trophy {
   background-image:
-  linear-gradient(var(--indy-blue), var(--louisville-purple)),
-  url('../img/2022_barrel_lynnnfamilystadium.webp');
+    linear-gradient(var(--indy-blue), var(--louisville-purple)),
+    url('../img/2022_barrel_lynnnfamilystadium.webp');
   background-repeat: no-repeat;
   background-blend-mode: hard-light;
   background-size: cover;
+  box-shadow: 0 0 1em .5em rgba(0,0,0,.35);
   color: white;
   padding-top: 2rem;
   padding-bottom: 2rem;
 
   .container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 1.5rem;
     @media screen and (min-width: 768px){
       align-items: center;
@@ -178,8 +180,11 @@ img {
 
 .trophy-cutout {
   height: auto;
-  max-width: 80%;
+  margin: 0 auto;
+  max-width: 120px;
   @media screen and (min-width: 768px){
+    margin: auto;
     max-height: 550px;
+    max-width: 100%;
   }
 }

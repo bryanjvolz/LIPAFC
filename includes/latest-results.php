@@ -15,6 +15,6 @@
     </div>
   </div>
 
-  <span title="ticket link TBD">Next Match: April 6<sup>th</sup> 2024</span>
+  <span title="ticket link"><a href="https://seatgeek.com/louisville-city-fc-tickets/united-soccer-league/2024-04-06-2-pm/6286554" rel="noopener nofollow" target="_blank">Next Match: April 6<sup>th</sup> 2024</a></span>
 
 </section>
