@@ -15,11 +15,11 @@
       </thead>
       <tbody>
         <tr>
-          <td data-name="Indy Overall">3-5-5</td>
-          <td data-name="Lou Overall">5-3-5</td>
+          <td data-name="Indy Overall">3-6-5</td>
+          <td data-name="Lou Overall">6-3-5</td>
           <td data-name="Indy Home">2-3-1</td>
-          <td data-name="Lou Home">2-1-4</td>
-          <td data-name="Indy Away">1-2-4</td>
+          <td data-name="Lou Home">3-1-4</td>
+          <td data-name="Indy Away">1-3-4</td>
           <td data-name="Lou Away">3-2-1</td>
         </tr>
       </tbody>
@@ -120,8 +120,8 @@
         <tbody>
           <tr data-year="2024">
             <td>April 6<sup>th</sup>, 2024</td>
-            <td>TBD</td>
-            <td>TBD</td>
+            <td>5-3</td>
+            <td>Louisville</td>
             <td>Lynn Family Stadium</td>
             <td>USL-C Regular Season</td>
           </tr>
