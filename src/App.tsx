@@ -9,8 +9,6 @@ import { Trophy } from './components/Trophy';
 import { FeaturedMatches } from './components/FeaturedMatches';
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
       <Header />

@@ -1,3 +1,7 @@
+
+
+
+
 export function Results(){
   return (
     <>
@@ -9,12 +13,14 @@ export function Results(){
         <table className="all-time all-time--regular">
           <caption>All Time Regular Season Records</caption>
           <thead>
-            <td title="Indianapolis Overall">Indy Overall (W-L-D)</td>
-            <td title="Louisville Overall">Lou Overall (W-L-D)</td>
-            <td title="Indianapolis Home">Indy Home</td>
-            <td>Lou Home</td>
-            <td>Indy Away</td>
-            <td>Lou Away</td>
+            <tr>
+              <td title="Indianapolis Overall">Indy Overall (W-L-D)</td>
+              <td title="Louisville Overall">Lou Overall (W-L-D)</td>
+              <td title="Indianapolis Home">Indy Home</td>
+              <td>Lou Home</td>
+              <td>Indy Away</td>
+              <td>Lou Away</td>
+            </tr>
           </thead>
           <tbody>
             <tr>
@@ -31,14 +37,16 @@ export function Results(){
         <table className="all-time all-time--playoffs">
           <caption>All Time USL-C Playoffs Records</caption>
           <thead>
-            <td>Indy Overall (W-L-D)</td>
-            <td>Lou Overall (W-L-D)</td>
-            <td>Lou Extra Time</td>
-            <td>Indy Extra Time</td>
-            <td>Lou PKs</td>
-            <td>Indy PKs</td>
-            <td>Last Meeting</td>
-            <td>Round</td>
+            <tr>
+              <td>Indy Overall (W-L-D)</td>
+              <td>Lou Overall (W-L-D)</td>
+              <td>Lou Extra Time</td>
+              <td>Indy Extra Time</td>
+              <td>Lou PKs</td>
+              <td>Indy PKs</td>
+              <td>Last Meeting</td>
+              <td>Round</td>
+            </tr>
           </thead>
           <tbody>
             <tr>
@@ -57,12 +65,14 @@ export function Results(){
         <table className="all-time all-time--open-cup">
           <caption>All Time US Open Cup Records</caption>
           <thead>
-            <td>Indy Overall (W-L-D)</td>
-            <td>Lou Overall (W-L-D)</td>
-            <td>Indy Home</td>
-            <td>Lou Home</td>
-            <td>Indy Away</td>
-            <td>Lou Away</td>
+            <tr>
+              <td>Indy Overall (W-L-D)</td>
+              <td>Lou Overall (W-L-D)</td>
+              <td>Indy Home</td>
+              <td>Lou Home</td>
+              <td>Indy Away</td>
+              <td>Lou Away</td>
+            </tr>
           </thead>
           <tbody>
             <tr>
