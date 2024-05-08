@@ -5,8 +5,8 @@
 .latest-results {
   align-items: center;
   background-color: #e1e1e1;
-  border-radius: .25em;
-  box-shadow: 0 0 1em .15em rgba(40,40,40,.25);
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0.15em rgba(40, 40, 40, 0.25);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -40,13 +40,13 @@
   flex-direction: column;
   flex: 1 0 auto;
 
-  @media screen and (min-width: $md){
+  @media screen and (min-width: $md) {
     flex-direction: row;
   }
 
   &:first-of-type {
-    border-right: 1px solid #9C9C9C;
-    @media screen and (min-width: $md){
+    border-right: 1px solid #9c9c9c;
+    @media screen and (min-width: $md) {
       flex-direction: row-reverse;
     }
   }
@@ -56,7 +56,7 @@
   height: 20vw;
   display: block;
 
-  @media screen and (min-width: $md){
+  @media screen and (min-width: $md) {
     min-height: 80px;
     height: auto;
     max-width: rem(75);
@@ -91,9 +91,9 @@
   color: #222;
   margin: 1rem auto;
   font-size: 1.25rem;
-  padding: .5em .25em;
+  padding: 0.5em 0.25em;
   width: 95%;
-  @media screen and (min-width: $md){
+  @media screen and (min-width: $md) {
     font-size: 1.15rem;
     width: auto;
   }
@@ -103,7 +103,7 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: $md){
+@media screen and (max-width: $md) {
   //Mobile table styles
   .results table {
     margin: 0 auto 2rem;
@@ -112,7 +112,8 @@
   thead {
     display: none;
   }
-  tr,td {
+  tr,
+  td {
     display: block;
     position: relative;
     width: 100%;
@@ -124,26 +125,26 @@
     position: relative;
   }
   .match-results tbody tr td:first-child:before {
-    content: 'Date:';
+    content: "Date:";
   }
   .match-results tbody tr td:nth-child(2):before {
-    content: 'Score:';
+    content: "Score:";
   }
   .match-results tbody tr td:nth-child(3):before {
-    content: 'Winner:';
+    content: "Winner:";
   }
   .match-results tbody tr td:nth-child(4):before {
-    content: 'Location:';
+    content: "Location:";
   }
   .match-results tbody tr td:nth-child(5):before {
-    content: 'Competition:';
+    content: "Competition:";
   }
 }
 
 /** Overall Stats Tables **/
-@media screen and (max-width: $md){
+@media screen and (max-width: $md) {
   .all-time tbody td:before {
-    content: attr(data-name) ':';
-    margin-right: .25em;
+    content: attr(data-name) ":";
+    margin-right: 0.25em;
   }
 }

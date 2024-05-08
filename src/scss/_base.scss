@@ -3,21 +3,22 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-  html, body {
-    margin: 0;
-    padding: 0;
-  }
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
-   html {
-    background: $body-bg;
-    color: $body-color;
-    font-family: $body-font;
-    font-size: #{$base-font-size}px;
-    line-height: 1.4;
-    scroll-behavior: smooth;
-  }
+html {
+  background: $body-bg;
+  color: $body-color;
+  font-family: $body-font;
+  font-size: #{$base-font-size}px;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
 
-  /*
+/*
    * Remove text-shadow in selection highlight:
    * https://twitter.com/miketaylr/status/12228805301
    *
@@ -25,73 +26,72 @@
    * Customize the background color to match your design.
    */
 
-  ::-moz-selection {
-      background: #b3d4fc;
-      text-shadow: none;
-  }
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
 
-  ::selection {
-      background: #b3d4fc;
-      text-shadow: none;
-  }
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
 
-  /*
+/*
    * A better looking default horizontal rule
    */
 
-  hr {
-      display: block;
-      height: 1px;
-      border: 0;
-      border-top: 1px solid #ccc;
-      margin: 1em 0;
-      padding: 0;
-  }
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
 
-  /*
+/*
    * Remove the gap between audio, canvas, iframes,
    * images, videos and the bottom of their containers:
    * https://github.com/h5bp/html5-boilerplate/issues/440
    */
 
-  audio,
-  canvas,
-  iframe,
-  img,
-  svg,
-  video {
-      vertical-align: middle;
-  }
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
 
-  /*
+/*
    * Remove default fieldset styles.
    */
 
-  fieldset {
-      border: 0;
-      margin: 0;
-      padding: 0;
-  }
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
 
-  /*
+/*
    * Allow only vertical resizing of textareas.
    */
 
-  textarea {
-      resize: vertical;
-  }
+textarea {
+  resize: vertical;
+}
 
-body, main {
+body,
+main {
   color: $body-color;
   position: relative;
 }
-
 
 img {
   max-width: 100%;
   width: auto;
 }
-
 
 .container {
   max-width: $max-width;
@@ -99,12 +99,10 @@ img {
   width: 95%;
 }
 
-
-
 /** About Section **/
 .about-lipafc {
   align-items: center;
-  background-image: url('/info_bg.webp');
+  background-image: url("/info_bg.webp");
   background-position: center bottom;
   background-size: cover;
   display: flex;
@@ -113,13 +111,15 @@ img {
   height: 100vh;
   padding: 7rem 0;
 
-   @media screen and (min-width: $lg){
+  @media screen and (min-width: $lg) {
     padding: 9rem 0;
   }
 
-  h1,p, h3 {
+  h1,
+  p,
+  h3 {
     margin: 0;
-    @media screen and (min-width: 720px){
+    @media screen and (min-width: 720px) {
       max-width: 50%;
       max-width: 65ch;
     }
@@ -130,20 +130,19 @@ img {
   }
   p {
     margin-bottom: 1.5rem;
-    @media screen and (min-width: $lg){
+    @media screen and (min-width: $lg) {
       font-size: 2.15vw;
     }
   }
 }
 
 .trophy {
-  background-image:
-    linear-gradient(var(--indy-blue), var(--louisville-purple)),
-    url('/2022_barrel_lynnnfamilystadium.webp');
+  background-image: linear-gradient(var(--indy-blue), var(--louisville-purple)),
+    url("/2022_barrel_lynnnfamilystadium.webp");
   background-repeat: no-repeat;
   background-blend-mode: hard-light;
   background-size: cover;
-  box-shadow: 0 0 1em .5em rgba(0,0,0,.35);
+  box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.35);
   color: white;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -152,32 +151,33 @@ img {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       align-items: center;
       gap: 10%;
       flex-direction: row;
     }
   }
 
-  p, ul {
+  p,
+  ul {
     font-size: 1.15rem;
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       font-size: 1.5rem;
     }
   }
 
   li {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
 
   h1 {
     color: white;
     font-size: 2.5rem;
     margin-top: 0;
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
       font-size: 3.5rem;
     }
-    @media screen and (min-width: 1024px){
+    @media screen and (min-width: 1024px) {
       font-size: 4rem;
     }
   }
@@ -187,7 +187,7 @@ img {
   height: auto;
   margin: 0 auto;
   max-width: 120px;
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     margin: auto;
     max-height: 550px;
     max-width: 100%;

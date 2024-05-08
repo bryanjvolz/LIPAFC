@@ -6,7 +6,7 @@
  * Hide visually and from screen readers
  */
 
- .hidden {
+.hidden {
   display: none !important;
 }
 
@@ -72,14 +72,13 @@
   clear: both;
 }
 
-
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
 
-   .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
