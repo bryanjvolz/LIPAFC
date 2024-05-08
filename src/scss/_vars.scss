@@ -1,0 +1,57 @@
+/**
+* Variables
+*/
+
+//Layout/widths
+$max-width: 1200px;
+$mobileNavHeight: 70px;
+
+//Breakpoints
+$sm: 600px;
+$md: 768px;
+$lg: 1000px;
+$xl: $max-width;
+
+//Typography
+$body-bg: #ffffff;
+$body-color: #222222;
+$link: #e1e1e1;
+$link-hover: #d1d1d1;
+$white: #fff;
+
+//$baseFontSize : 16;
+$base-font-size: 18;
+
+$header-font: "bebasNeueRegular", Helvetica, Arial, sans-serif;
+$body-font: "bebasNeueRegular", Helvetica, Arial, sans-serif;
+$light-font: "bebasNeueLight", Helvetica, Arial, sans-serif;
+$book-font: "bebasNeueBook", Helvetica, Arial, sans-serif;
+$script-font: "Permanent Marker", cursive;
+
+//Color Scheme
+$theme-colors: (
+  "white": #fff,
+  "black": #000,
+  "test": #9c9c9c,
+  "louisville-purple": #400077,
+  "indy-blue": #0a2240,
+  "indy-red": #cf102d,
+);
+
+:root {
+  //Nav
+  --bar-width: 1.5em;
+  --bar-height: 0.25em;
+  --bar-spacing: 0.5em;
+  //Theme
+  --louisville-purple: #400077;
+  --indy-blue: #0a2240;
+  --indy-red: #cf102d;
+  --team-gradient: linear-gradient(
+    120deg,
+    rgba(64, 0, 119, 1) 50%,
+    rgba(10, 34, 64, 1) 50%
+  );
+  --white: #fff;
+  --black: #000;
+}
