@@ -1,16 +1,14 @@
-import { useState, useEffect } from "react";
+import { ChangeEvent, useEffect } from "react";
 
 export function Results() {
-  const [filterYear, setFilterYear] = useState("2024");
 
   useEffect(() => {
     const currentYear = new Date().getFullYear();
     setFilteredRows(currentYear.toString());
   }, []);
 
-  function filterResults(event: Event) {
-    const yearValue = event.target.value ?? new Date().getFullYear();
-    setFilterYear(yearValue);
+  function filterResults(event: ChangeEvent<HTMLSelectElement>) {
+    const yearValue = (event.target as HTMLSelectElement).value ?? new Date().getFullYear();
     setFilteredRows(yearValue);
   }
 
