@@ -43,12 +43,12 @@ export function Results() {
             </thead>
             <tbody>
               <tr>
-                <td data-name="Indy Overall">3-6-5</td>
-                <td data-name="Lou Overall">6-3-5</td>
-                <td data-name="Indy Home">2-3-1</td>
+                <td data-name="Indy Overall">3-6-6</td>
+                <td data-name="Lou Overall">6-3-6</td>
+                <td data-name="Indy Home">2-3-2</td>
                 <td data-name="Lou Home">3-1-4</td>
                 <td data-name="Indy Away">1-3-4</td>
-                <td data-name="Lou Away">3-2-1</td>
+                <td data-name="Lou Away">3-2-2</td>
               </tr>
             </tbody>
           </table>
