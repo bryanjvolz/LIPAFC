@@ -175,8 +175,8 @@ export function Results() {
                 <td>
                   October 5<sup>th</sup>, 2024
                 </td>
-                <td>TBD</td>
-                <td>TBD</td>
+                <td>2-2</td>
+                <td>Tie</td>
                 <td>Carroll Stadium</td>
                 <td>USL-C Regular Season</td>
               </tr>

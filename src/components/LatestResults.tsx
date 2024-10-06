@@ -8,15 +8,15 @@ export function LatestResults() {
         <span>
           Latest Results:{" "}
           <a
-            href="https://www.youtube.com/watch?v=cHm-cqtCBcw"
+            href="https://www.youtube.com/watch?v=SKayQN6WdrI"
             target="_blank"
             rel="noopener noreferrer"
           >
-            April 6<sup>th</sup> 2023
+            Oct 5<sup>th</sup> 2024
           </a>
         </span>
         <div className="latest-results__result">
-          <span className="latest-results__score">3</span>
+          <span className="latest-results__score">2</span>
           <div className="latest-results__team">
             <img
               src={IndyElevenLogo}
@@ -29,7 +29,7 @@ export function LatestResults() {
           </div>
         </div>
         <div className="latest-results__result">
-          <span className="latest-results__score">5</span>
+          <span className="latest-results__score">2</span>
           <div className="latest-results__team">
             <img
               src={LouCityLogo}
@@ -44,7 +44,7 @@ export function LatestResults() {
 
         <span title="ticket link">
           {/*<a href="https://seatgeek.com/louisville-city-fc-tickets/united-soccer-league/2024-04-06-2-pm/6286554" rel="noopener nofollow" target="_blank">-->Next Match: October 5<sup>th</sup> 2024<!--</a>-->*/}
-          Next Match: October 5<sup>th</sup> 2024
+          Next Match: TBD
         </span>
       </section>
     </>
