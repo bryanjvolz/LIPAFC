@@ -43,8 +43,8 @@ export function LatestResults() {
         </div>
 
         <span title="ticket link">
-          {/*<a href="https://seatgeek.com/louisville-city-fc-tickets/united-soccer-league/2024-04-06-2-pm/6286554" rel="noopener nofollow" target="_blank">-->Next Match: October 5<sup>th</sup> 2024<!--</a>-->*/}
-          Next Match: TBD
+          <a href="https://www.ticketmaster.com/indy-eleven-v-louisville-city-fc-indianapolis-indiana-08-30-2025/event/0500618CC8BE33FC" rel="noopener nofollow" target="_blank">Next Match: August 30<sup>th</sup> 2025</a>
+          {/* Next Match: TBD */}
         </span>
       </section>
     </>
