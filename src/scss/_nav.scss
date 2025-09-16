@@ -1,3 +1,6 @@
+@use "functions";
+@use "vars";
+
 /* Nav */
 
 .skip-link {
@@ -16,14 +19,14 @@
 }
 
 body.active-mobile-nav {
-  @media screen and (max-width: $md) {
+  @media screen and (max-width: vars.$md) {
     height: 100vh;
     overflow: hidden;
   }
 }
 
 .mobile-logo {
-  @media screen and (min-width: $md) {
+  @media screen and (min-width: vars.$md) {
     display: none;
   }
 }
@@ -66,13 +69,13 @@ body.active-mobile-nav {
   }
   100% {
     opacity: 1;
-    height: calc(100vh - #{$mobileNavHeight});
+    height: calc(100vh - #{vars.$mobileNavHeight});
   }
 }
 @keyframes nav-hide {
   0% {
     opacity: 1;
-    height: calc(100vh - #{$mobileNavHeight});
+    height: calc(100vh - #{vars.$mobileNavHeight});
   }
   100% {
     opacity: 0;
@@ -127,7 +130,7 @@ header {
   }
 
   body.active-mobile-nav & {
-    @media screen and (max-width: $md) {
+    @media screen and (max-width: vars.$md) {
       z-index: 7;
     }
   }
@@ -142,14 +145,14 @@ header {
   top: 1rem;
   width: 100%;
   z-index: 10;
-  @media screen and (min-width: $md) {
+  @media screen and (min-width: vars.$md) {
     display: block;
     width: 100%;
     z-index: 4;
   }
 
   ul {
-    @media screen and (max-width: $md) {
+    @media screen and (max-width: vars.$md) {
       animation: nav-hide 3s;
       background-color: rgba(0, 0, 0, 0.9);
       display: none;
@@ -164,30 +167,30 @@ header {
     }
 
     &.active-nav {
-      @media screen and (max-width: $md) {
+      @media screen and (max-width: vars.$md) {
         animation: nav-display 1.2s;
         display: flex;
-        height: calc(100vh - #{$mobileNavHeight});
+        height: calc(100vh - #{vars.$mobileNavHeight});
         opacity: 1;
         transition: 0.3s ease all;
       }
     }
 
-    @media screen and (min-width: $md) {
+    @media screen and (min-width: vars.$md) {
       align-items: center;
       display: flex;
       height: auto;
       justify-items: center;
       list-style: none;
       margin: 0 auto;
-      max-width: $max-width * 0.75;
+      max-width: vars.$max-width * 0.75;
       padding: 0;
       width: 100%;
     }
   }
 
   li {
-    font-family: $header-font;
+    font-family: vars.$header-font;
     list-style: none;
     margin: auto;
     padding: 0.25rem;
@@ -195,9 +198,9 @@ header {
 
     a {
       border-bottom: 1px solid transparent;
-      color: $white;
-      font-family: $header-font;
-      font-size: rem(22);
+      color: vars.$white;
+      font-family: vars.$header-font;
+      font-size: functions.rem(22);
       scroll-behavior: smooth;
       text-decoration: none;
       transition: 0.3s ease all;
@@ -209,14 +212,14 @@ header {
       }
     }
 
-    @media screen and (max-width: $md) {
+    @media screen and (max-width: vars.$md) {
       &:first-child {
         display: none;
         visibility: hidden;
       }
     }
 
-    @media screen and (min-width: $md) {
+    @media screen and (min-width: vars.$md) {
       &:nth-child(1) {
         order: 3;
       }
@@ -240,7 +243,7 @@ header {
   width: 10%;
   display: inline-block;
   margin-left: 2.5%;
-  @media screen and (min-width: $md) {
+  @media screen and (min-width: vars.$md) {
     display: none;
     visibility: hidden;
   }
@@ -267,7 +270,7 @@ header {
     background: rgba(255, 255, 255, 0);
   }
 
-  @media screen and (min-width: $md) {
+  @media screen and (min-width: vars.$md) {
     display: none;
     visibility: hidden;
   }
@@ -312,8 +315,8 @@ header {
 }
 
 .intro {
-  font-family: $book-font;
-  font-size: rem(16);
+  font-family: vars.$book-font;
+  font-size: functions.rem(16);
   margin: 0 auto;
   max-width: 70rem;
   position: relative;
@@ -322,13 +325,13 @@ header {
   z-index: 8;
 
   @media screen and (min-width: 720px) {
-    font-size: rem(32);
+    font-size: functions.rem(32);
   }
 
   h1 {
     color: #fff;
     font-size: 11vw;
-    font-size: rem(35);
+    font-size: functions.rem(35);
     line-height: 0.85em;
     margin: 0 auto;
     padding: 0;
@@ -336,13 +339,13 @@ header {
     text-align: center;
 
     @media screen and (min-width: 720px) {
-      font-size: rem(85);
+      font-size: functions.rem(85);
     }
 
     span {
-      font-family: $script-font;
+      font-family: vars.$script-font;
       font-size: 12vw;
-      font-size: rem(32);
+      font-size: functions.rem(32);
       left: calc(50% - 1em);
       position: absolute;
       text-shadow: 0 0 15px rgba(0, 0, 0, 0.85);
@@ -351,7 +354,7 @@ header {
 
       @media screen and (min-width: 720px) {
         top: -1.25em;
-        font-size: rem(48);
+        font-size: functions.rem(48);
       }
     }
   }

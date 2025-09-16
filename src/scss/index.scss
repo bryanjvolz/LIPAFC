@@ -3,15 +3,15 @@
 /*
  * Hello there!
  */
-@import "vars";
-@import "functions";
-@import "fonts";
-@import "base";
-@import "helpers";
-@import "type";
-@import "nav";
-@import "results";
-@import "tables";
-@import "swiper";
-@import "footer";
-@import "print";
+@use "vars";
+@use "functions";
+@use "fonts";
+@use "base";
+@use "helpers";
+@use "type";
+@use "nav";
+@use "results";
+@use "tables";
+@use "swiper";
+@use "footer";
+@use "print";
