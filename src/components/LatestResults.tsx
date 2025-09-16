@@ -8,11 +8,11 @@ export function LatestResults() {
         <span>
           Latest Results:{" "}
           <a
-            href="https://www.youtube.com/watch?v=SKayQN6WdrI"
+            href="https://www.youtube.com/watch?v=B0b3xoUam-w"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Oct 5<sup>th</sup> 2024
+            Aug 30<sup>th</sup> 2025
           </a>
         </span>
         <div className="latest-results__result">
