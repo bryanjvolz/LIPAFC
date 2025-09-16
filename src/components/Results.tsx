@@ -1,14 +1,14 @@
 import { ChangeEvent, useEffect } from "react";
 
 export function Results() {
-
   useEffect(() => {
     const currentYear = new Date().getFullYear();
     setFilteredRows(currentYear.toString());
   }, []);
 
   function filterResults(event: ChangeEvent<HTMLSelectElement>) {
-    const yearValue = (event.target as HTMLSelectElement).value ?? new Date().getFullYear();
+    const yearValue =
+      (event.target as HTMLSelectElement).value ?? new Date().getFullYear();
     setFilteredRows(yearValue);
   }
 
@@ -43,12 +43,12 @@ export function Results() {
             </thead>
             <tbody>
               <tr>
-                <td data-name="Indy Overall">3-6-6</td>
-                <td data-name="Lou Overall">6-3-6</td>
-                <td data-name="Indy Home">2-3-2</td>
+                <td data-name="Indy Overall">3-7-6</td>
+                <td data-name="Lou Overall">7-3-6</td>
+                <td data-name="Indy Home">2-4-2</td>
                 <td data-name="Lou Home">3-1-4</td>
                 <td data-name="Indy Away">1-3-4</td>
-                <td data-name="Lou Away">3-2-2</td>
+                <td data-name="Lou Away">4-2-2</td>
               </tr>
             </tbody>
           </table>
@@ -164,14 +164,18 @@ export function Results() {
             </thead>
             <tbody>
               <tr data-year="2025">
-                <td>August 30<sup>th</sup>, 2025</td>
-                <td>TBD</td>
-                <td>TBD</td>
+                <td>
+                  August 30<sup>th</sup>, 2025
+                </td>
+                <td>1-3</td>
+                <td>Louisville</td>
                 <td>Carroll Stadium</td>
                 <td>USL-C Regular Season</td>
               </tr>
               <tr data-year="2025">
-                <td>October 4<sup>th</sup>, 2025</td>
+                <td>
+                  October 4<sup>th</sup>, 2025
+                </td>
                 <td>TBD</td>
                 <td>TBD</td>
                 <td>Lynn Family Stadium</td>
