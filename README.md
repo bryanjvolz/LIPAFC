@@ -3,6 +3,7 @@
 A simple site to show standings and history of the Louisville-Indianapolis Proximity Association Football Contest.
 
 ## Run/Build
+
 Dev: `npm run dev`
 Lint: `npm run lint`
 Build: `npm run build`

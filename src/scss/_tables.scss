@@ -1,3 +1,5 @@
+@use "vars";
+
 /* Tables */
 
 table {
@@ -37,7 +39,7 @@ td {
 thead tr {
   background-color: var(--table-header-bg);
   color: var(--table-header-bg-text-color);
-  font-family: $light-font;
+  font-family: vars.$light-font;
 }
 
 tbody tr {

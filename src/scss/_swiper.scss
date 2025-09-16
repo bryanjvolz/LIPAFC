@@ -1,3 +1,6 @@
+@use "functions";
+@use "vars";
+
 /**
 * Swiper carousel styles
 **/
@@ -12,7 +15,7 @@
   overflow: hidden;
   position: relative;
 
-  @media screen and (min-width: $md) {
+  @media screen and (min-width: vars.$md) {
     height: 85vh;
   }
 }
@@ -37,8 +40,8 @@
 }
 
 .swiper-title {
-  font-family: $header-font;
-  font-size: rem(80);
+  font-family: vars.$header-font;
+  font-size: functions.rem(80);
   margin-top: 0;
   position: relative;
   z-index: 2;
@@ -73,11 +76,11 @@
       z-index: 5;
     }
 
-    @media screen and (min-width: $lg) {
+    @media screen and (min-width: vars.$lg) {
       font-size: 3.5vw;
     }
 
-    @media screen and (min-width: $lg) {
+    @media screen and (min-width: vars.$lg) {
       font-size: 2rem;
       font-size: 2.5vw;
     }
@@ -92,22 +95,22 @@
 
 .swiper-slide .credits {
   background-color: #e1e1e1;
-  border-radius: rem(3);
+  border-radius: functions.rem(3);
   color: #333;
   display: inline-block;
-  font-family: $book-font;
+  font-family: vars.$book-font;
   font-size: 0.75rem;
   padding: 1.15em 0.75em 0.75em;
   position: relative;
 
-  @media screen and (min-width: $md) {
+  @media screen and (min-width: vars.$md) {
     bottom: 1.75rem;
     position: absolute;
   }
 
   &:before {
     content: "Credit:";
-    font-family: $header-font;
+    font-family: vars.$header-font;
     left: 0.75em;
     position: absolute;
     text-shadow: 0 0 2px solid #fff;

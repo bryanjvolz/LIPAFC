@@ -1,3 +1,6 @@
+@use "functions";
+@use "vars";
+
 /**
 * Latest Results block
 */
@@ -13,12 +16,12 @@
   left: 50%;
   margin: 0 auto;
   max-width: 800px;
-  min-height: rem(200);
+  min-height: functions.rem(200);
   padding: 1rem;
   position: absolute;
   text-align: center;
   text-shadow: 1px 1px 0 0 #ffffff;
-  top: rem(-100);
+  top: functions.rem(-100);
   transform: translate(-50%, 0);
   width: 80%;
   z-index: 5;
@@ -28,7 +31,7 @@
     display: block;
     flex: 1 0 100%;
     align-self: flex-start;
-    font-family: $light-font;
+    font-family: vars.$light-font;
     font-size: 24px;
   }
 }
@@ -40,13 +43,13 @@
   flex-direction: column;
   flex: 1 0 auto;
 
-  @media screen and (min-width: $md) {
+  @media screen and (min-width: vars.$md) {
     flex-direction: row;
   }
 
   &:first-of-type {
     border-right: 1px solid #9c9c9c;
-    @media screen and (min-width: $md) {
+    @media screen and (min-width: vars.$md) {
       flex-direction: row-reverse;
     }
   }
@@ -56,22 +59,22 @@
   height: 20vw;
   display: block;
 
-  @media screen and (min-width: $md) {
+  @media screen and (min-width: vars.$md) {
     min-height: 80px;
     height: auto;
-    max-width: rem(75);
+    max-width: functions.rem(75);
   }
 }
 
 .latest-results__team {
-  font-family: $header-font;
+  font-family: vars.$header-font;
   font-size: 38px;
   flex-direction: column;
   display: flex;
 }
 
 .latest-results__score {
-  font-family: $header-font;
+  font-family: vars.$header-font;
   font-size: 48px;
 }
 
@@ -93,7 +96,7 @@
   font-size: 1.25rem;
   padding: 0.5em 0.25em;
   width: 95%;
-  @media screen and (min-width: $md) {
+  @media screen and (min-width: vars.$md) {
     font-size: 1.15rem;
     width: auto;
   }
@@ -103,7 +106,7 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: $md) {
+@media screen and (max-width: vars.$md) {
   //Mobile table styles
   .results table {
     margin: 0 auto 2rem;
@@ -142,7 +145,7 @@
 }
 
 /** Overall Stats Tables **/
-@media screen and (max-width: $md) {
+@media screen and (max-width: vars.$md) {
   .all-time tbody td:before {
     content: attr(data-name) ":";
     margin-right: 0.25em;

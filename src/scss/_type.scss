@@ -1,7 +1,9 @@
+@use "vars";
+
 /* Headings */
 h1,
 h2 {
-  font-family: $header-font;
+  font-family: vars.$header-font;
   text-transform: uppercase;
 }
 section h1 {
