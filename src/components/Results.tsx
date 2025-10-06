@@ -43,11 +43,11 @@ export function Results() {
             </thead>
             <tbody>
               <tr>
-                <td data-name="Indy Overall">3-7-6</td>
-                <td data-name="Lou Overall">7-3-6</td>
+                <td data-name="Indy Overall">3-8-6</td>
+                <td data-name="Lou Overall">8-3-6</td>
                 <td data-name="Indy Home">2-4-2</td>
-                <td data-name="Lou Home">3-1-4</td>
-                <td data-name="Indy Away">1-3-4</td>
+                <td data-name="Lou Home">4-1-4</td>
+                <td data-name="Indy Away">1-4-4</td>
                 <td data-name="Lou Away">4-2-2</td>
               </tr>
             </tbody>
@@ -176,8 +176,8 @@ export function Results() {
                 <td>
                   October 4<sup>th</sup>, 2025
                 </td>
-                <td>TBD</td>
-                <td>TBD</td>
+                <td>2-0</td>
+                <td>Louisville</td>
                 <td>Lynn Family Stadium</td>
                 <td>USL-C Regular Season</td>
               </tr>
@@ -192,7 +192,13 @@ export function Results() {
               </tr>
               <tr data-year="2024">
                 <td>
-                  October 5<sup>th</sup>, 2024
+                  <a
+                    href="https://www.youtube.com/watch?v=YzvzdhkLkxU"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    October 5<sup>th</sup>, 2024
+                  </a>
                 </td>
                 <td>2-2</td>
                 <td>Tie</td>
