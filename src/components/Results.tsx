@@ -119,6 +119,7 @@ export function Results() {
               onChange={filterResults}
             >
               <optgroup label="Modern Era">
+                <option value="2026">2026</option>
                 <option value="2025">2025</option>
                 <option value="2024">2024</option>
                 <option value="2023">2023</option>
@@ -163,6 +164,24 @@ export function Results() {
               </tr>
             </thead>
             <tbody>
+              <tr data-year="2026">
+                <td>
+                  August 22<sup>nd</sup>, 2026
+                </td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>Carroll Stadium</td>
+                <td>USL-C Regular Season</td>
+              </tr>
+              <tr data-year="2026">
+                <td>
+                  October 17<sup>th</sup>, 2026
+                </td>
+                <td>TBD</td>
+                <td>TBD</td>
+                <td>Lynn Family Stadium</td>
+                <td>USL-C Regular Season</td>
+              </tr>
               <tr data-year="2025">
                 <td>
                   August 30<sup>th</sup>, 2025
