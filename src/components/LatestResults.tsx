@@ -50,7 +50,7 @@ export function LatestResults() {
           >
             Next Match: October 4<sup>th</sup> 2025
           </a> */}
-          Next Match: Aug 22<sup>nd</sup> 2026
+          Next Match: TBD
         </span>
       </section>
     </>
