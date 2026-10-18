@@ -8,15 +8,15 @@ export function LatestResults() {
         <span>
           Latest Results:{" "}
           <a
-            href="https://www.youtube.com/watch?v=YzvzdhkLkxU"
+            href="https://youtu.be/Le-rQb6Dqx8?si=nqlqFAt4s6wQPBC5"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Oct 4<sup>th</sup> 2025
+            Oct 17<sup>th</sup> 2026
           </a>
         </span>
         <div className="latest-results__result">
-          <span className="latest-results__score">0</span>
+          <span className="latest-results__score">1</span>
           <div className="latest-results__team">
             <img
               src={IndyElevenLogo}
@@ -29,7 +29,7 @@ export function LatestResults() {
           </div>
         </div>
         <div className="latest-results__result">
-          <span className="latest-results__score">2</span>
+          <span className="latest-results__score">4</span>
           <div className="latest-results__team">
             <img
               src={LouCityLogo}

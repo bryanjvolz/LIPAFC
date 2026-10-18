@@ -43,12 +43,12 @@ export function Results() {
             </thead>
             <tbody>
               <tr>
-                <td data-name="Indy Overall">3-8-6</td>
-                <td data-name="Lou Overall">8-3-6</td>
-                <td data-name="Indy Home">2-4-2</td>
-                <td data-name="Lou Home">4-1-4</td>
+                <td data-name="Indy Overall">4-9-6</td>
+                <td data-name="Lou Overall">9-4-6</td>
+                <td data-name="Indy Home">3-4-2</td>
+                <td data-name="Lou Home">5-1-4</td>
                 <td data-name="Indy Away">1-4-4</td>
-                <td data-name="Lou Away">4-2-2</td>
+                <td data-name="Lou Away">4-3-2</td>
               </tr>
             </tbody>
           </table>
@@ -168,8 +168,8 @@ export function Results() {
                 <td>
                   August 22<sup>nd</sup>, 2026
                 </td>
-                <td>TBD</td>
-                <td>TBD</td>
+                <td>2-1</td>
+                <td>Indy</td>
                 <td>Carroll Stadium</td>
                 <td>USL-C Regular Season</td>
               </tr>
@@ -177,8 +177,8 @@ export function Results() {
                 <td>
                   October 17<sup>th</sup>, 2026
                 </td>
-                <td>TBD</td>
-                <td>TBD</td>
+                <td>4-1</td>
+                <td>Louisville</td>
                 <td>Lynn Family Stadium</td>
                 <td>USL-C Regular Season</td>
               </tr>
